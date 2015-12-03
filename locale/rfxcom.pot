@@ -1,0 +1,134 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-08-17 09:43+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: rfxcom.php:14 rfxcom.php:39
+msgid "Guide RfxCom"
+msgstr ""
+
+#: rfxcom.php:48
+msgid "Branchements"
+msgstr ""
+
+#: rfxcom.php:52 rfxcom.php:79
+msgid "Etape 1 :"
+msgstr ""
+
+#: rfxcom.php:55
+msgid "Vissez l'antenne au RfxCom"
+msgstr ""
+
+#: rfxcom.php:59 rfxcom.php:86
+msgid "Etape 2 :"
+msgstr ""
+
+#: rfxcom.php:62
+msgid "Connectez le cable USB à votre RfxCom"
+msgstr ""
+
+#: rfxcom.php:66 rfxcom.php:93
+msgid "Etape 3 :"
+msgstr ""
+
+#: rfxcom.php:69
+msgid "Connectez le cable USB à votre box Jeedom"
+msgstr ""
+
+#: rfxcom.php:75
+msgid "Installation du plugin RfxCom"
+msgstr ""
+
+#: rfxcom.php:82
+msgid "Cliquez sur le bouton <span class='label label-info'>Market</span>."
+msgstr ""
+
+#: rfxcom.php:89
+msgid "Recherchez le plugin RfxCom puis cliquez dessus."
+msgstr ""
+
+#: rfxcom.php:96
+msgid ""
+"Cliquez ensuite sur <span class='label label-info'>Installer Stable</span> "
+"afin d'installer le plugin RfxCom."
+msgstr ""
+
+#: rfxcom.php:101
+msgid "Premiers pas avec la box Jeedom"
+msgstr ""
+
+#: rfxcom.php:103
+msgid "Félicitation !"
+msgstr ""
+
+#: rfxcom.php:109
+msgid "Votre Box Jeedom est désormais totalement opérationnelle."
+msgstr ""
+
+#: rfxcom.php:109
+msgid ""
+"Afin de profiter des dernières nouveautés, nous vous conseillons de mettre à "
+"jour votre Jeedom."
+msgstr ""
+
+#: rfxcom.php:109
+msgid "Nous vous invitons à consulter<br> le document"
+msgstr ""
+
+#: rfxcom.php:109
+msgid "Premiers pas avec Jeedom"
+msgstr ""
+
+#: rfxcom.php:109
+msgid "ainsi que"
+msgstr ""
+
+#: rfxcom.php:109
+msgid "la documentation complète"
+msgstr ""
+
+#: rfxcom.php:109
+msgid "afin d'optimiser l'utilisation de votre box Jeedom."
+msgstr ""
+
+#: rfxcom.php:123
+msgid "Annuler"
+msgstr ""
+
+#: rfxcom.php:124
+msgid "Etape en cours"
+msgstr ""
+
+#: rfxcom.php:125
+msgid "Pagination"
+msgstr ""
+
+#: rfxcom.php:126
+msgid "Fin"
+msgstr ""
+
+#: rfxcom.php:127
+msgid "Suivant"
+msgstr ""
+
+#: rfxcom.php:128
+msgid "Précédent"
+msgstr ""
+
+#: rfxcom.php:129
+msgid "Chargement"
+msgstr ""

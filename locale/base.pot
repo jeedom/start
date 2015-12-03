@@ -1,0 +1,320 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-08-17 09:42+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: base.php:14 base.php:29 base.php:39
+msgid "Guide de Démarrage"
+msgstr ""
+
+#: base.php:39 base.php:49
+msgid "Déballage"
+msgstr ""
+
+#: base.php:41 base.php:51
+msgid "Contenu de la boite :"
+msgstr ""
+
+#: base.php:52 base.php:62
+msgid "Carte SD avec Jeedom Préinstallé"
+msgstr ""
+
+#: base.php:58 base.php:68
+msgid "Alimentation"
+msgstr ""
+
+#: base.php:64 base.php:74
+msgid "Module Rfxcom (en option)"
+msgstr ""
+
+#: base.php:68 base.php:78
+msgid "Ce dont vous avez besoin :"
+msgstr ""
+
+#: base.php:73 base.php:83
+msgid "Cable Ethernet"
+msgstr ""
+
+#: base.php:79 base.php:89
+msgid "Routeur / box internet"
+msgstr ""
+
+#: base.php:85 base.php:95
+msgid "Connexion Internet"
+msgstr ""
+
+#: base.php:91 base.php:101
+msgid "Branchements"
+msgstr ""
+
+#: base.php:95 base.php:122 base.php:149 base.php:176 base.php:105
+#: base.php:132 base.php:159 base.php:186
+msgid "Etape 1 :"
+msgstr ""
+
+#: base.php:98 base.php:108
+msgid "Connectez le cable Ethernet à votre routeur"
+msgstr ""
+
+#: base.php:102 base.php:129 base.php:156 base.php:183 base.php:112
+#: base.php:139 base.php:166 base.php:193
+msgid "Etape 2 :"
+msgstr ""
+
+#: base.php:105 base.php:115
+msgid "Connectez le cable Ethernet à votre box Jeedom"
+msgstr ""
+
+#: base.php:109 base.php:136 base.php:163 base.php:190 base.php:119
+#: base.php:146 base.php:173 base.php:200
+msgid "Etape 3 :"
+msgstr ""
+
+#: base.php:112 base.php:122
+msgid "Connectez l'alimentation à votre box Jeedom"
+msgstr ""
+
+#: base.php:118 base.php:128
+msgid "Inscription au Market"
+msgstr ""
+
+#: base.php:125 base.php:135
+msgid "Rendez-vous sur le Market Jeedom afin d'enregistrer votre Service Pack."
+msgstr ""
+
+#: base.php:125 base.php:135
+msgid "Vous avez du recevoir votre code Service Pack par email."
+msgstr ""
+
+#: base.php:132
+msgid ""
+"Si vous disposez déjà d'un compte sur le Market, cliquez sur Se Connecter. "
+"Sinon cliquez sur S'enregistrer."
+msgstr ""
+
+#: base.php:139
+msgid "Après votre connexion, cliquez sur votre pseudo puis sur Profil."
+msgstr ""
+
+#: base.php:139
+msgid ""
+"Cliquez ensuite sur l'onglet Mes Jeedoms et inscrire ici le code Service "
+"Pack reçu par Email."
+msgstr ""
+
+#: base.php:145 base.php:155
+msgid "Recherche de la box sur le réseau"
+msgstr ""
+
+#: base.php:152 base.php:162
+msgid "Téléchargez"
+msgstr ""
+
+#: base.php:159
+msgid "Démarrez Jeedom Finder puis cliquez sur Lancer la recherche."
+msgstr ""
+
+#: base.php:166
+msgid ""
+"Lorsque la box a été découverte, cliquez sur l'URL afin de d'ouvrir "
+"l'interface."
+msgstr ""
+
+#: base.php:172 base.php:182
+msgid "Connexion à la box Jeedom"
+msgstr ""
+
+#: base.php:179 base.php:189
+msgid "Lors de la 1ère connexion les codes d'accès par défaut sont :"
+msgstr ""
+
+#: base.php:179 base.php:189
+msgid "Mot de passe :"
+msgstr ""
+
+#: base.php:186
+msgid ""
+"Vous devez ensuite lier votre compte Market à votre box Jeedom. Cliquez sur "
+"Général -> Administration -> Configuration."
+msgstr ""
+
+#: base.php:186
+msgid ""
+"Cliquez ensuite sur la section Market et mise à jour puis entrez votre login/"
+"mot de passe du Market. Enfin cliquez sur Sauvegarder"
+msgstr ""
+
+#: base.php:193 base.php:203
+msgid "Il est également impératif de modifier le mot de passe par défaut."
+msgstr ""
+
+#: base.php:193
+msgid ""
+"Cliquez sur le lien dans le bandeau jaune vous invitant à modifier votre mot "
+"de passe.<br> Cliquez ensuite sur Changer le mot de passe afin d'en définir "
+"un nouveau."
+msgstr ""
+
+#: base.php:201 base.php:211
+msgid "Premiers pas avec la box Jeedom"
+msgstr ""
+
+#: base.php:203 base.php:213
+msgid "Félicitation !"
+msgstr ""
+
+#: base.php:209 base.php:219
+msgid "Votre Box Jeedom est désormais totalement opérationnelle."
+msgstr ""
+
+#: base.php:209
+msgid "Nous vous invitons à consulter le document"
+msgstr ""
+
+#: base.php:209 base.php:219
+msgid "Premiers pas avec Jeedom"
+msgstr ""
+
+#: base.php:209 base.php:219
+msgid "ainsi que"
+msgstr ""
+
+#: base.php:209 base.php:219
+msgid "la documentation complète"
+msgstr ""
+
+#: base.php:209 base.php:219
+msgid "afin d'optimiser l'utilisation de votre box Jeedom."
+msgstr ""
+
+#: base.php:216 base.php:226
+msgid "Configuration du RfxCom"
+msgstr ""
+
+#: base.php:231 base.php:241
+msgid "Configuration Enocean"
+msgstr ""
+
+#: base.php:254 base.php:264
+msgid "Annuler"
+msgstr ""
+
+#: base.php:255 base.php:265
+msgid "Etape en cours"
+msgstr ""
+
+#: base.php:256 base.php:266
+msgid "Pagination"
+msgstr ""
+
+#: base.php:257 base.php:267
+msgid "Fin"
+msgstr ""
+
+#: base.php:258 base.php:268
+msgid "Suivant"
+msgstr ""
+
+#: base.php:259 base.php:269
+msgid "Précédent"
+msgstr ""
+
+#: base.php:260 base.php:270
+msgid "Chargement"
+msgstr ""
+
+#: base.php:135
+msgid "Aller sur le Market"
+msgstr ""
+
+#: base.php:142
+msgid ""
+"Si vous disposez déjà d'un compte sur le Market, cliquez sur <span "
+"class='label label-info'>Se Connecter</span>. Sinon cliquez sur <span "
+"class='label label-info'>S'enregistrer</span>."
+msgstr ""
+
+#: base.php:149
+msgid ""
+"Après votre connexion, cliquez sur votre <span class='label label-"
+"info'>pseudo</span> puis sur <span class='label label-info'>Profil</span>."
+msgstr ""
+
+#: base.php:149
+msgid ""
+"Cliquez ensuite sur l'onglet <span class='label label-info'>Mes Jeedoms</"
+"span> et inscrire ici le code Service Pack reçu par Email."
+msgstr ""
+
+#: base.php:169
+msgid ""
+"Démarrez Jeedom Finder puis cliquez sur <span class='label label-"
+"info'>Lancer la recherche</span>."
+msgstr ""
+
+#: base.php:176
+msgid ""
+"Lorsque la box a été découverte, cliquez sur l'URL afin d'ouvrir l'interface."
+msgstr ""
+
+#: base.php:196
+msgid ""
+"Vous devez ensuite lier votre compte Market à votre box Jeedom. Cliquez sur "
+"<span class='label label-info'>Général</span> -> <span class='label label-"
+"info'>Administration</span> -> <span class='label label-info'>Configuration</"
+"span>."
+msgstr ""
+
+#: base.php:196
+msgid ""
+"Cliquez ensuite sur la section <span class='label label-info'>Market et mise "
+"à jour</span> puis entrez votre login/mot de passe du Market. Enfin cliquez "
+"sur <span class='label label-info'>Sauvegarder</span>"
+msgstr ""
+
+#: base.php:203
+msgid ""
+"Cliquez sur le lien dans le bandeau jaune vous invitant à modifier votre mot "
+"de passe.<br> Cliquez ensuite sur <span class='label label-info'>Changer le "
+"mot de passe</span> afin d'en définir un nouveau."
+msgstr ""
+
+#: base.php:219
+msgid ""
+"Afin de profiter des dernières nouveautés, nous vous conseillons de mettre à "
+"jour votre Jeedom."
+msgstr ""
+
+#: base.php:219
+msgid "Nous vous invitons à consulter<br> le document"
+msgstr ""
+
+#: base.php:234 base.php:249
+msgid "La configuration de base de votre Box Jeedom est désormais effectuée."
+msgstr ""
+
+#: base.php:234 base.php:249
+msgid "Nous vous invitons à consulter "
+msgstr ""
+
+#: base.php:234
+msgid "Le guide de configuration RfxCom"
+msgstr ""
+
+#: base.php:249
+msgid "Le guide de configuration Enocean"
+msgstr ""

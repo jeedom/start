@@ -1,0 +1,167 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-08-17 09:47+0200\n"
+"PO-Revision-Date: 2015-08-17 10:02+0200\n"
+"Last-Translator: Thomas MARTINEZ <thomas@jeedom.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en_US\n"
+
+#: enocean.php:14 enocean.php:39
+msgid "Guide Enocean"
+msgstr "Enocean Guide"
+
+#: enocean.php:49
+msgid "Désinstallation du plugin Z-Wave"
+msgstr "Z-Wave Plugin Uninstalling"
+
+#: enocean.php:51
+msgid ""
+"Par défaut, les boxs Jeedom sont configurées Z-Wave. Si vous n'utilisez pas "
+"le protocole Z-Wave, vous devez supprimer le plugin :"
+msgstr ""
+"By default, Jeedom boxs are configured Z-Wave. If you are not using the Z-"
+"Wave protocol, you must remove the plugin:"
+
+#: enocean.php:54 enocean.php:81
+msgid "Etape 1 :"
+msgstr "Step 1 :"
+
+#: enocean.php:57
+msgid ""
+"Cliquez sur le menu <span class='label label-info'>Général</span> puis <span "
+"class='label label-info'>Plugins</span>."
+msgstr ""
+"Click the <span class=‘label label-info’>Plugins</span> menu and then <span "
+"class=‘label label-info’>General.</span>"
+
+#: enocean.php:61 enocean.php:88
+msgid "Etape 2 :"
+msgstr "Step 2 :"
+
+#: enocean.php:64
+msgid "Cliquez sur l'icone Z-Wave."
+msgstr "Click on the icon Z-Wave."
+
+#: enocean.php:68 enocean.php:95
+msgid "Etape 3 :"
+msgstr "Step 3 :"
+
+#: enocean.php:71
+msgid "Cliquez sur le bouton <span class='label label-info'>Supprimer</span."
+msgstr "Click on the button labelled Remove."
+
+#: enocean.php:77
+msgid "Installation du plugin Enocean"
+msgstr "Installing the plugin Enocean"
+
+#: enocean.php:84
+msgid "Cliquez sur le bouton <span class='label label-info'>Market</span>."
+msgstr "Click the <span class='label label-info'>Market</span> button."
+
+#: enocean.php:91
+msgid "Recherchez le plugin Enocean puis cliquez dessus."
+msgstr "Find for the Enocean plugin and click."
+
+#: enocean.php:98
+msgid ""
+"Cliquez ensuite sur <span class='label label-info'>Installer Stable</span> "
+"afin d'installer le plugin Enocean."
+msgstr ""
+"Then click <span class=‘label label-info’>Install Stable</span> to install "
+"the Enocean plugin."
+
+#: enocean.php:108
+msgid "Premiers pas avec la box Jeedom"
+msgstr "First steps with the Jeedom box"
+
+#: enocean.php:110
+msgid "Félicitation !"
+msgstr "Congratulations!"
+
+#: enocean.php:116
+msgid "Votre Box Jeedom est désormais totalement opérationnelle."
+msgstr "Your Jeedom Box is now fully operational."
+
+#: enocean.php:116
+msgid ""
+"Afin de profiter des dernières nouveautés, nous vous conseillons de mettre à "
+"jour votre Jeedom."
+msgstr ""
+"In order to enjoy our latest enhancements, we recommend you upgrade your "
+"Jeedom."
+
+#: enocean.php:116
+msgid "Nous vous invitons à consulter<br> le document"
+msgstr "We invite you to read the document"
+
+#: enocean.php:116
+msgid "Premiers pas avec Jeedom"
+msgstr "First steps with Jeedom"
+
+#: enocean.php:116
+msgid "ainsi que"
+msgstr "and"
+
+#: enocean.php:116
+msgid "la documentation complète"
+msgstr "the full documentation"
+
+#: enocean.php:116
+msgid "afin d'optimiser l'utilisation de votre box Jeedom."
+msgstr "to optimize the use of your Jeedom box."
+
+#: enocean.php:123
+msgid "Configuration du RfxCom"
+msgstr "RfxCom Configuration"
+
+#: enocean.php:131
+msgid "La configuration de votre équipement Enocean est désormais effectuée."
+msgstr "The configuration of your EnOcean equipment  is now completed."
+
+#: enocean.php:131
+msgid "Nous vous invitons à consulter "
+msgstr "We invite you to read the document"
+
+#: enocean.php:131
+msgid "Le guide de configuration RfxCom"
+msgstr "The RFXCOM setup guide"
+
+#: enocean.php:146
+msgid "Annuler"
+msgstr "Cancel"
+
+#: enocean.php:147
+msgid "Etape en cours"
+msgstr "Current step"
+
+#: enocean.php:148
+msgid "Pagination"
+msgstr "Pagination"
+
+#: enocean.php:149
+msgid "Fin"
+msgstr "Finish"
+
+#: enocean.php:150
+msgid "Suivant"
+msgstr "Next"
+
+#: enocean.php:151
+msgid "Précédent"
+msgstr "Previous"
+
+#: enocean.php:152
+msgid "Chargement"
+msgstr "Loading"

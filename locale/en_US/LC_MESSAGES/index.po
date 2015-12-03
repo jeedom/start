@@ -1,0 +1,31 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-07-21 23:21+0200\n"
+"PO-Revision-Date: 2015-07-21 23:22+0200\n"
+"Last-Translator: Martinez Thomas <thomas@jeedom.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en_US\n"
+
+#: index.php:25 index.php:40
+msgid "Guides de Démarrage"
+msgstr "Quick start guides"
+
+#: index.php:46
+msgid "Quel pack possédez-vous ?"
+msgstr "Which pack do you have?"
+
+#: index.php:54 index.php:60 index.php:69 index.php:75
+msgid "Accéder au guide"
+msgstr "Access the guide"

@@ -1,0 +1,158 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-08-17 09:43+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: enocean.php:14 enocean.php:39
+msgid "Guide Enocean"
+msgstr ""
+
+#: enocean.php:49
+msgid "Désinstallation du plugin Z-Wave"
+msgstr ""
+
+#: enocean.php:51
+msgid ""
+"Par défaut, les boxs Jeedom sont configurées Z-Wave. Si vous n'utilisez pas "
+"le protocole Z-Wave, vous devez supprimer le plugin :"
+msgstr ""
+
+#: enocean.php:54 enocean.php:81
+msgid "Etape 1 :"
+msgstr ""
+
+#: enocean.php:57
+msgid ""
+"Cliquez sur le menu <span class='label label-info'>Général</span> puis <span "
+"class='label label-info'>Plugins</span>."
+msgstr ""
+
+#: enocean.php:61 enocean.php:88
+msgid "Etape 2 :"
+msgstr ""
+
+#: enocean.php:64
+msgid "Cliquez sur l'icone Z-Wave."
+msgstr ""
+
+#: enocean.php:68 enocean.php:95
+msgid "Etape 3 :"
+msgstr ""
+
+#: enocean.php:71
+msgid "Cliquez sur le bouton <span class='label label-info'>Supprimer</span."
+msgstr ""
+
+#: enocean.php:77
+msgid "Installation du plugin Enocean"
+msgstr ""
+
+#: enocean.php:84
+msgid "Cliquez sur le bouton <span class='label label-info'>Market</span>."
+msgstr ""
+
+#: enocean.php:91
+msgid "Recherchez le plugin Enocean puis cliquez dessus."
+msgstr ""
+
+#: enocean.php:98
+msgid ""
+"Cliquez ensuite sur <span class='label label-info'>Installer Stable</span> "
+"afin d'installer le plugin Enocean."
+msgstr ""
+
+#: enocean.php:108
+msgid "Premiers pas avec la box Jeedom"
+msgstr ""
+
+#: enocean.php:110
+msgid "Félicitation !"
+msgstr ""
+
+#: enocean.php:116
+msgid "Votre Box Jeedom est désormais totalement opérationnelle."
+msgstr ""
+
+#: enocean.php:116
+msgid ""
+"Afin de profiter des dernières nouveautés, nous vous conseillons de mettre à "
+"jour votre Jeedom."
+msgstr ""
+
+#: enocean.php:116
+msgid "Nous vous invitons à consulter<br> le document"
+msgstr ""
+
+#: enocean.php:116
+msgid "Premiers pas avec Jeedom"
+msgstr ""
+
+#: enocean.php:116
+msgid "ainsi que"
+msgstr ""
+
+#: enocean.php:116
+msgid "la documentation complète"
+msgstr ""
+
+#: enocean.php:116
+msgid "afin d'optimiser l'utilisation de votre box Jeedom."
+msgstr ""
+
+#: enocean.php:123
+msgid "Configuration du RfxCom"
+msgstr ""
+
+#: enocean.php:131
+msgid "La configuration de votre équipement Enocean est désormais effectuée."
+msgstr ""
+
+#: enocean.php:131
+msgid "Nous vous invitons à consulter "
+msgstr ""
+
+#: enocean.php:131
+msgid "Le guide de configuration RfxCom"
+msgstr ""
+
+#: enocean.php:146
+msgid "Annuler"
+msgstr ""
+
+#: enocean.php:147
+msgid "Etape en cours"
+msgstr ""
+
+#: enocean.php:148
+msgid "Pagination"
+msgstr ""
+
+#: enocean.php:149
+msgid "Fin"
+msgstr ""
+
+#: enocean.php:150
+msgid "Suivant"
+msgstr ""
+
+#: enocean.php:151
+msgid "Précédent"
+msgstr ""
+
+#: enocean.php:152
+msgid "Chargement"
+msgstr ""

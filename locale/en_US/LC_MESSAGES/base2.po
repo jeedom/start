@@ -1,0 +1,241 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-07-22 01:15+0200\n"
+"PO-Revision-Date: 2015-07-22 01:22+0200\n"
+"Last-Translator: Thomas MARTINEZ <thomas@jeedom.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.2\n"
+"X-Poedit-Basepath: .\n"
+"Language: en_US\n"
+
+#: base.php:14 base.php:29
+msgid "Guide de Démarrage"
+msgstr "Getting Started Guide"
+
+#: base.php:39
+msgid "Déballage"
+msgstr "Unboxing"
+
+#: base.php:41
+msgid "Contenu de la boite :"
+msgstr "Content of the box :"
+
+#: base.php:52
+msgid "Carte SD avec Jeedom Préinstallé"
+msgstr "SD with preinstalled Jeedom"
+
+#: base.php:58
+msgid "Alimentation"
+msgstr "Power supply"
+
+#: base.php:64
+msgid "Module Rfxcom (en option)"
+msgstr "Rfxcom (optional module)"
+
+#: base.php:68
+msgid "Ce dont vous avez besoin :"
+msgstr "What you need :"
+
+#: base.php:73
+msgid "Cable Ethernet"
+msgstr "Ethernet cable"
+
+#: base.php:79
+msgid "Routeur / box internet"
+msgstr "Router / internet box"
+
+#: base.php:85
+msgid "Connexion Internet"
+msgstr "internet connection"
+
+#: base.php:91
+msgid "Branchements"
+msgstr "Connections"
+
+#: base.php:95 base.php:122 base.php:149 base.php:176
+msgid "Etape 1 :"
+msgstr "Step 1 :"
+
+#: base.php:98
+msgid "Connectez le cable Ethernet à votre routeur"
+msgstr "Connect the Ethernet cable to your router"
+
+#: base.php:102 base.php:129 base.php:156 base.php:183
+msgid "Etape 2 :"
+msgstr "Step 2 :"
+
+#: base.php:105
+msgid "Connectez le cable Ethernet à votre box Jeedom"
+msgstr "Connect the Ethernet cable to your Jeedom box"
+
+#: base.php:109 base.php:136 base.php:163 base.php:190
+msgid "Etape 3 :"
+msgstr "Step 3 :"
+
+#: base.php:112
+msgid "Connectez l'alimentation à votre box Jeedom"
+msgstr "Connect the power supply to your Jeedom box"
+
+#: base.php:118
+msgid "Inscription au Market"
+msgstr "Registration on the market"
+
+#: base.php:125
+msgid "Rendez-vous sur le Market Jeedom afin d'enregistrer votre Service Pack."
+msgstr "Visit the Jeedom Market to register your service pack."
+
+#: base.php:125
+msgid "Vous avez du recevoir votre code Service Pack par email."
+msgstr "You should have received your Service Pack code by email."
+
+#: base.php:132
+msgid ""
+"Si vous disposez déjà d'un compte sur le Market, cliquez sur Se Connecter. "
+"Sinon cliquez sur S'enregistrer."
+msgstr ""
+"If you already have an account on the Market, click Connect. Otherwise click "
+"on Register."
+
+#: base.php:139
+msgid "Après votre connexion, cliquez sur votre pseudo puis sur Profil."
+msgstr "After your connection, click on your nickname and Profile."
+
+#: base.php:139
+msgid ""
+"Cliquez ensuite sur l'onglet Mes Jeedoms et inscrire ici le code Service "
+"Pack reçu par Email."
+msgstr ""
+"Then click on the My Jeedoms tab and register here the Service Pack code "
+"received by email."
+
+#: base.php:145
+msgid "Recherche de la box sur le réseau"
+msgstr "Search the box on the network"
+
+#: base.php:152
+msgid "Téléchargez"
+msgstr "Download"
+
+#: base.php:159
+msgid "Démarrez Jeedom Finder puis cliquez sur Lancer la recherche."
+msgstr "Start Jeedom Finder and click Start search."
+
+#: base.php:166
+msgid ""
+"Lorsque la box a été découverte, cliquez sur l'URL afin de d'ouvrir "
+"l'interface."
+msgstr "When the box was discovered, click the URL to open the interface."
+
+#: base.php:172
+msgid "Connexion à la box Jeedom"
+msgstr "Connecting to the Jeedom box"
+
+#: base.php:179
+msgid "Lors de la 1ère connexion les codes d'accès par défaut sont :"
+msgstr "For the first connection, the default access codes are:"
+
+#: base.php:179
+msgid "Mot de passe :"
+msgstr "Password :"
+
+#: base.php:186
+msgid ""
+"Vous devez ensuite lier votre compte Market à votre box Jeedom. Cliquez sur "
+"Général -> Administration -> Configuration."
+msgstr ""
+"You must then link your Market account to your Jeedom box. Click General -> "
+"Administration -> Configuration."
+
+#: base.php:186
+msgid ""
+"Cliquez ensuite sur la section Market et mise à jour puis entrez votre login/"
+"mot de passe du Market. Enfin cliquez sur Sauvegarder"
+msgstr ""
+"Then click on the section Market and update and enter your Market login / "
+"password. Finally click Save"
+
+#: base.php:193
+msgid "Il est également impératif de modifier le mot de passe par défaut."
+msgstr "It is also imperative to change the default password."
+
+#: base.php:193
+msgid ""
+"Cliquez sur le lien dans le bandeau jaune vous invitant à modifier votre mot "
+"de passe.<br> Cliquez ensuite sur Changer le mot de passe afin d'en définir "
+"un nouveau."
+msgstr ""
+"Click on the link in the yellow bar asking you to change your password. <br> "
+"Then click Change Password to set a new one."
+
+#: base.php:201
+msgid "Premiers pas avec la box Jeedom"
+msgstr "First steps with the Jeedom box"
+
+#: base.php:203
+msgid "Félicitation !"
+msgstr "Congratulations!"
+
+#: base.php:209
+msgid "Votre Box Jeedom est désormais totalement opérationnelle."
+msgstr "Your Jeedom Box is now fully operational."
+
+#: base.php:209
+msgid "Nous vous invitons à consulter le document"
+msgstr "We invite you to read the document"
+
+#: base.php:209
+msgid "Premiers pas avec Jeedom"
+msgstr "First steps with Jeedom"
+
+#: base.php:209
+msgid "ainsi que"
+msgstr "and"
+
+#: base.php:209
+msgid "la documentation complète"
+msgstr "the full documentation"
+
+#: base.php:209
+msgid "afin d'optimiser l'utilisation de votre box Jeedom."
+msgstr "to optimize the use of your Jeedom box."
+
+#: base.php:216
+msgid "Configuration du RfxCom"
+msgstr "RfxCom Configuration"
+
+#: base.php:231
+msgid "Configuration Enocean"
+msgstr "Enocean Configuration"
+
+#: base.php:254
+msgid "Annuler"
+msgstr "Cancel"
+
+#: base.php:255
+msgid "Etape en cours"
+msgstr "Current step"
+
+#: base.php:256
+msgid "Pagination"
+msgstr "Pagination"
+
+#: base.php:257
+msgid "Fin"
+msgstr "Finish"
+
+#: base.php:258
+msgid "Suivant"
+msgstr "Next"
+
+#: base.php:259
+msgid "Précédent"
+msgstr "Previous"
+
+#: base.php:260
+msgid "Chargement"
+msgstr "Loading"

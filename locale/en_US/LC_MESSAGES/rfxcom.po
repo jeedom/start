@@ -1,0 +1,139 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-08-17 10:03+0200\n"
+"PO-Revision-Date: 2015-08-17 10:06+0200\n"
+"Last-Translator: Thomas MARTINEZ <thomas@jeedom.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en_US\n"
+
+#: rfxcom.php:14 rfxcom.php:39
+msgid "Guide RfxCom"
+msgstr "RFXCOM Guide"
+
+#: rfxcom.php:48
+msgid "Branchements"
+msgstr "Connections"
+
+#: rfxcom.php:52 rfxcom.php:79
+msgid "Etape 1 :"
+msgstr "Step 1 :"
+
+#: rfxcom.php:55
+msgid "Vissez l'antenne au RfxCom"
+msgstr "Screw the antenna to RFXCOM"
+
+#: rfxcom.php:59 rfxcom.php:86
+msgid "Etape 2 :"
+msgstr "Step 2 :"
+
+#: rfxcom.php:62
+msgid "Connectez le cable USB à votre RfxCom"
+msgstr "Connect the USB cable to your RFXCOM"
+
+#: rfxcom.php:66 rfxcom.php:93
+msgid "Etape 3 :"
+msgstr "Step 3 :"
+
+#: rfxcom.php:69
+msgid "Connectez le cable USB à votre box Jeedom"
+msgstr "Connect the USB cable to your Jeedom box"
+
+#: rfxcom.php:75
+msgid "Installation du plugin RfxCom"
+msgstr "Installing the plugin RFXCOM"
+
+#: rfxcom.php:82
+msgid "Cliquez sur le bouton <span class='label label-info'>Market</span>."
+msgstr "Click the <span class=‘label label-info’>Market</span> button."
+
+#: rfxcom.php:89
+msgid "Recherchez le plugin RfxCom puis cliquez dessus."
+msgstr "Find for the RFXCOM plugin and click."
+
+#: rfxcom.php:96
+msgid ""
+"Cliquez ensuite sur <span class='label label-info'>Installer Stable</span> "
+"afin d'installer le plugin RfxCom."
+msgstr ""
+"Then click <span class=‘label label-info’>Install Stable</span> to install "
+"the RFXCOM plugin."
+
+#: rfxcom.php:101
+msgid "Premiers pas avec la box Jeedom"
+msgstr "First steps with the Jeedom box"
+
+#: rfxcom.php:103
+msgid "Félicitation !"
+msgstr "Congratulations!"
+
+#: rfxcom.php:109
+msgid "Votre Box Jeedom est désormais totalement opérationnelle."
+msgstr "Your Jeedom Box is now fully operational."
+
+#: rfxcom.php:109
+msgid ""
+"Afin de profiter des dernières nouveautés, nous vous conseillons de mettre à "
+"jour votre Jeedom."
+msgstr ""
+"In order to enjoy our latest enhancements, we recommend you upgrade your "
+"Jeedom."
+
+#: rfxcom.php:109
+msgid "Nous vous invitons à consulter<br> le document"
+msgstr "We invite you to read the document"
+
+#: rfxcom.php:109
+msgid "Premiers pas avec Jeedom"
+msgstr "First steps with Jeedom"
+
+#: rfxcom.php:109
+msgid "ainsi que"
+msgstr "and"
+
+#: rfxcom.php:109
+msgid "la documentation complète"
+msgstr "the full documentation"
+
+#: rfxcom.php:109
+msgid "afin d'optimiser l'utilisation de votre box Jeedom."
+msgstr "to optimize the use of your Jeedom box."
+
+#: rfxcom.php:123
+msgid "Annuler"
+msgstr "Cancel"
+
+#: rfxcom.php:124
+msgid "Etape en cours"
+msgstr "Current step"
+
+#: rfxcom.php:125
+msgid "Pagination"
+msgstr "Pagination"
+
+#: rfxcom.php:126
+msgid "Fin"
+msgstr "Finish"
+
+#: rfxcom.php:127
+msgid "Suivant"
+msgstr "Next"
+
+#: rfxcom.php:128
+msgid "Précédent"
+msgstr "Previous"
+
+#: rfxcom.php:129
+msgid "Chargement"
+msgstr "Loading"
