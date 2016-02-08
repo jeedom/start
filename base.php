@@ -162,7 +162,7 @@ textdomain("base");
 				    			<h2><?=_("Etape 1 :");?></h2>
 				    			<div class="thumbnail">
 				    				<img alt="Jeedom" src="img/logo.png" style="width: 127px;">
-				    				<div class="caption"><center><?=_("Téléchargez");?> Jeedom Finder<p><a href="https://drive.google.com/open?id=0B9gdDNCtvjAIMmFYTEtISHRxU2s" class="btn btn-sm btn-primary" role="button"><i class="fa fa-windows"></i> Windows</a> &nbsp; <a href="http://www.jeedom.fr/download/JeedomFinder/JeedomFinder.dmg" class="btn btn-sm btn-primary" role="button"><i class="fa fa-apple"></i> Mac OS</a> &nbsp; <a href="http://www.jeedom.fr/download/JeedomFinder/JeedomFinder-Ubuntu-12.04-amd64.tar.gz" class="btn btn-sm btn-primary" role="button"><i class="fa fa-linux"></i> Linux</a></p></center></div>
+				    				<div class="caption"><center><?=_("Téléchargez");?> Jeedom Finder<p><a href="https://drive.google.com/open?id=0B9gdDNCtvjAISzhGMVRJdVI0VkE" class="btn btn-sm btn-primary" role="button"><i class="fa fa-windows"></i> Windows</a> &nbsp; <a href="https://drive.google.com/open?id=0B9gdDNCtvjAIT0xXa3ZWMllXUkU" class="btn btn-sm btn-primary" role="button"><i class="fa fa-apple"></i> Mac OS</a> &nbsp; <a href="https://drive.google.com/open?id=0B9gdDNCtvjAIMU9FbXFHQVZpSW8" class="btn btn-sm btn-primary" role="button"><i class="fa fa-linux"></i> Linux</a></p></center></div>
 				    			</div>
 				    		</div>
 				    		<div class="col-md-4">
