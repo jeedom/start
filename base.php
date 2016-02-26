@@ -162,7 +162,7 @@ textdomain("base");
 				    			<h2><?=_("Etape 1 :");?></h2>
 				    			<div class="thumbnail">
 				    				<img alt="Jeedom" src="img/logo.png" style="width: 127px;">
-				    				<div class="caption"><center><?=_("Téléchargez");?> Jeedom Finder<p><a href="https://drive.google.com/open?id=0B9gdDNCtvjAISzhGMVRJdVI0VkE" target="_blank" class="btn btn-sm btn-primary" role="button"><i class="fa fa-windows"></i> Windows</a> &nbsp; <a href="https://drive.google.com/open?id=0B9gdDNCtvjAIT0xXa3ZWMllXUkU" target="_blank" class="btn btn-sm btn-primary" role="button"><i class="fa fa-apple"></i> Mac OS</a> &nbsp; <a href="https://drive.google.com/open?id=0B9gdDNCtvjAIMU9FbXFHQVZpSW8" target="_blank" class="btn btn-sm btn-primary" role="button"><i class="fa fa-linux"></i> Linux</a></p></center></div>
+				    				<div class="caption"><center><?=_("Téléchargez");?> Jeedom Finder<p><a href="https://drive.google.com/folderview?id=0BzBLctEj8LQpekdBZkhzV3dkaGs&usp=sharing" target="_blank" class="btn btn-sm btn-primary" role="button"><i class="fa fa-windows"></i> Windows</a> &nbsp; <a href="https://drive.google.com/open?id=0B9gdDNCtvjAIT0xXa3ZWMllXUkU" target="_blank" class="btn btn-sm btn-primary" role="button"><i class="fa fa-apple"></i> Mac OS</a> &nbsp; <a href="https://drive.google.com/folderview?id=0BzBLctEj8LQpekdBZkhzV3dkaGs&usp=sharing" target="_blank" class="btn btn-sm btn-primary" role="button"><i class="fa fa-linux"></i> Linux</a></p></center></div>
 				    			</div>
 				    		</div>
 				    		<div class="col-md-4">
