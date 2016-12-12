@@ -135,7 +135,7 @@ textdomain("base");
 				    			<h2><?=_("Etape 1 :");?></h2>
 				    			<div class="thumbnail">
 				    				<a href="https://market.jeedom.fr" target="_blank"><img alt="market-logo" src="img/logo-MARKET.svg"  style="width: 250px;"></a>
-				    				<div class="caption"><center><?=_("Rendez-vous sur le Market Jeedom afin d'enregistrer votre Service Pack.");?><br><?=_("Vous avez du recevoir votre code Service Pack par email.");?> <br><a class="btn btn-primary btn-xs" href="https://market.jeedom.fr" target="_blank"><i class="fa fa-share-square-o"></i>&nbsp;<?=_("Aller sur le Market");?></a></center></div>
+				    				<div class="caption"><center><?=_("Rendez-vous sur le Market Jeedom afin d'enregistrer votre Service Pack.");?><br><?=_("Vous avez du recevoir votre code Service Pack par email.");?> <br><a class="btn btn-primary btn-xs" href="https://www.jeedom.com/market" target="_blank"><i class="fa fa-share-square-o"></i>&nbsp;<?=_("Aller sur le Market");?></a></center></div>
 				    			</div>
 				    		</div>
 				    		<div class="col-md-4">
@@ -161,22 +161,22 @@ textdomain("base");
 				    		<div class="col-md-4">
 				    			<h2><?=_("Etape 1 :");?></h2>
 				    			<div class="thumbnail">
-				    				<img alt="Jeedom" src="img/logo.png" style="width: 127px;">
-				    				<div class="caption"><center><?=_("Téléchargez");?> Jeedom Finder<p><a href="https://app.box.com/s/ijyxkntjjip9x4oue2xqdi53r4sh8ent" target="_blank" class="btn btn-sm btn-primary" role="button"><i class="fa fa-windows"></i> Windows</a> &nbsp; <a href="https://app.box.com/s/ijyxkntjjip9x4oue2xqdi53r4sh8ent" target="_blank" class="btn btn-sm btn-primary" role="button"><i class="fa fa-apple"></i> Mac OS</a> &nbsp; <a href="https://app.box.com/s/ijyxkntjjip9x4oue2xqdi53r4sh8ent" target="_blank" class="btn btn-sm btn-primary" role="button"><i class="fa fa-linux"></i> Linux</a></p></center></div>
+				    				<a href="https://market.jeedom.fr" target="_blank"><img alt="market-logo" src="img/logo-MARKET.svg"  style="width: 250px;"></a>
+				    				<div class="caption"><center><?=_("Connectez-vous sur le Market Jeedom.");?><br> <br><a class="btn btn-primary btn-xs" href="https://www.jeedom.com/market" target="_blank"><i class="fa fa-share-square-o"></i>&nbsp;<?=_("Aller sur le Market");?></a></center></div>
 				    			</div>
 				    		</div>
 				    		<div class="col-md-4">
 				    			<h2><?=_("Etape 2 :");?></h2>
 				    			<div class="thumbnail">
-				    				<a data-toggle="lightbox" href="img/start-jeedom-finder.jpg"><img alt="search-finder" src="img/start-jeedom-finder.jpg"  style="width: 250px;"></a>
-				    				<div class="caption"><center><?=_("Démarrez Jeedom Finder puis cliquez sur <span class='label label-info'>Lancer la recherche</span>.");?><br>&nbsp;</center></div>
+				    				<a data-toggle="lightbox" href="img/search-market.jpg"><img alt="search-market" src="img/search-market.jpg"  style="width: 250px;"></a>
+				    				<div class="caption"><center><?=_("Cliquez sur <span class='label label-info'>Jeedom sur mon réseau</span>.");?><br>&nbsp;</center></div>
 				    			</div>
 				    		</div>
 				    		<div class="col-md-4">
 				    			<h2><?=_("Etape 3 :");?></h2>
 				    			<div class="thumbnail">
-				    				<a data-toggle="lightbox" href="img/connect-jeedom-finder.jpg"><img alt="result-finder" src="img/connect-jeedom-finder.jpg"  style="width: 250px;"></a>
-				    				<div class="caption"><center><?=_("Lorsque la box a été découverte, cliquez sur l'URL afin d'ouvrir l'interface.");?><br>&nbsp;</center></div>
+				    				<a data-toggle="lightbox" href="img/find-market.jpg"><img alt="result-finder" src="img/find-market.jpg"  style="width: 250px;"></a>
+				    				<div class="caption"><center><?=_("La liste des Jeedoms apparait, cliquez sur l'URL afin d'ouvrir l'interface.");?><br>&nbsp;</center></div>
 				    			</div>
 				    		</div>
 				    	</div>
