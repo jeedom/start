@@ -55,14 +55,14 @@ textdomain("base");
 				    	<div class="row">
 				    		<div class="col-md-3">
 				    			<div class="thumbnail">
-				    				<img alt="mini+" src="img/smart.jpg" style="width: 100px;">
-				    				<div class="caption"><center>Jeedom Smart</center></div>
+				    				<img alt="mini+" src="img/mini_plus.jpg" style="width: 100px;">
+				    				<div class="caption"><center>Jeedom Mini+</center></div>
 				    			</div>
 				    		</div>
 				    		<div class="col-md-3">
 				    			<div class="thumbnail">
-				    				<img alt="sd-card" src="img/antenne.jpg" style="width: 100px;">
-				    				<div class="caption"><center><?=_("Antenne à visser");?></center></div>
+				    				<img alt="sd-card" src="img/sd-card.jpg" style="width: 100px;">
+				    				<div class="caption"><center><?=_("Carte SD avec Jeedom Préinstallé");?></center></div>
 				    			</div>
 				    		</div>
 				    		<div class="col-md-3">
@@ -114,15 +114,15 @@ textdomain("base");
 				    		<div class="col-md-4">
 				    			<h2><?=_("Etape 2 :");?></h2>
 				    			<div class="thumbnail">
-				    				<a data-toggle="lightbox" href="img/connect-antenne.jpg"><img alt="antenne" src="img/connect-antenne.jpg"  style="width: 250px;"></a>
-				    				<div class="caption"><center><?=_("Vissez l'antenne à votre box Jeedom");?></center></div>
+				    				<a data-toggle="lightbox" href="img/connect-ethernet.jpg"><img alt="ethernet" src="img/connect-ethernet.jpg"  style="width: 250px;"></a>
+				    				<div class="caption"><center><?=_("Connectez le cable Ethernet à votre box Jeedom");?></center></div>
 				    			</div>
 				    		</div>
 				    		<div class="col-md-4">
 				    			<h2><?=_("Etape 3 :");?></h2>
 				    			<div class="thumbnail">
-				    				<a data-toggle="lightbox" href="img/connect-power-ethernet.jpg"><img alt="power" src="img/connect-power-ethernet.jpg"  style="width: 250px;"></a>
-				    				<div class="caption"><center><?=_("Connectez le câble réseau puis l'alimentation à votre box Jeedom");?></center></div>
+				    				<a data-toggle="lightbox" href="img/connect-power.jpg"><img alt="power" src="img/connect-power.jpg"  style="width: 250px;"></a>
+				    				<div class="caption"><center><?=_("Connectez l'alimentation à votre box Jeedom");?></center></div>
 				    			</div>
 				    		</div>
 				    	</div>
@@ -134,7 +134,7 @@ textdomain("base");
 				    		<div class="col-md-4">
 				    			<h2><?=_("Etape 1 :");?></h2>
 				    			<div class="thumbnail">
-				    				<a href="https://www.jeedom.com/market" target="_blank"><img alt="market-logo" src="img/logo-MARKET.svg"  style="width: 250px;"></a>
+				    				<a href="https://market.jeedom.fr" target="_blank"><img alt="market-logo" src="img/logo-MARKET.svg"  style="width: 250px;"></a>
 				    				<div class="caption"><center><?=_("Rendez-vous sur le Market Jeedom afin d'enregistrer votre Service Pack.");?><br><?=_("Vous avez du recevoir votre code Service Pack par email.");?> <br><a class="btn btn-primary btn-xs" href="https://www.jeedom.com/market" target="_blank"><i class="fa fa-share-square-o"></i>&nbsp;<?=_("Aller sur le Market");?></a></center></div>
 				    			</div>
 				    		</div>
@@ -161,7 +161,7 @@ textdomain("base");
 				    		<div class="col-md-4">
 				    			<h2><?=_("Etape 1 :");?></h2>
 				    			<div class="thumbnail">
-				    				<a href="https://www.jeedom.com/market" target="_blank"><img alt="market-logo" src="img/logo-MARKET.svg"  style="width: 250px;"></a>
+				    				<a href="https://market.jeedom.fr" target="_blank"><img alt="market-logo" src="img/logo-MARKET.svg"  style="width: 250px;"></a>
 				    				<div class="caption"><center><?=_("Connectez-vous sur le Market Jeedom.");?><br> <br><a class="btn btn-primary btn-xs" href="https://www.jeedom.com/market" target="_blank"><i class="fa fa-share-square-o"></i>&nbsp;<?=_("Aller sur le Market");?></a></center></div>
 				    			</div>
 				    		</div>
@@ -219,7 +219,7 @@ if ($_GET['type'] == 'base') {
 				    		<div class="col-md-6">
 				    			<div class="thumbnail">
 				    				<img alt="done" src="img/check.jpg"  style="width: 300px;">
-				    				<div class="caption"><center><?=_("Votre Box Jeedom est désormais totalement opérationnelle.");?><br><br><?=_("Afin de profiter des dernières nouveautés, nous vous conseillons de mettre à jour votre Jeedom.");?><br><?=_("Nous vous invitons à consulter<br> le document");?> <a href="https://jeedom.github.io/documentation/premiers-pas/fr_FR/index.html" target="_blank" class="btn btn-primary" role="button"><i class="fa fa-book"></i> <?=_("Premiers pas avec Jeedom");?></a><br>&nbsp; &nbsp; &nbsp; &nbsp; <?=_("ainsi que");?> <a href="https://www.jeedom.com/doc/" target="_blank" class="btn btn-primary" role="button"><i class="fa fa-book"></i> <?=_("la documentation complète");?> </a> <br><?=_("afin d'optimiser l'utilisation de votre box Jeedom.");?></center></div>
+				    				<div class="caption"><center><?=_("Votre Box Jeedom est désormais totalement opérationnelle.");?><br><br><?=_("Afin de profiter des dernières nouveautés, nous vous conseillons de mettre à jour votre Jeedom.");?><br><?=_("Nous vous invitons à consulter<br> le document");?> <a href="https://jeedom.fr/doc/documentation/premiers-pas/fr_FR/doc-premiers-pas.html" target="_blank" class="btn btn-primary" role="button"><i class="fa fa-book"></i> <?=_("Premiers pas avec Jeedom");?></a><br>&nbsp; &nbsp; &nbsp; &nbsp; <?=_("ainsi que");?> <a href="https://jeedom.fr/doc/" target="_blank" class="btn btn-primary" role="button"><i class="fa fa-book"></i> <?=_("la documentation complète");?> </a> <br><?=_("afin d'optimiser l'utilisation de votre box Jeedom.");?></center></div>
 				    			</div>
 				    		</div>
 				    	</div>
