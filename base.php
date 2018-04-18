@@ -196,7 +196,7 @@ textdomain("base");
 				    			<h2><?=_("Etape 2 :");?></h2>
 				    			<div class="thumbnail">
 				    				<a data-toggle="lightbox" href="img/market-jeedom.jpg"><img alt="link-market" src="img/market-jeedom.jpg"  style="width: 250px;height: 170px;"></a>
-				    				<div class="caption"><center><?=_("Vous devez ensuite lier votre compte Market à votre box Jeedom. Cliquez sur <span class='label label-info'>Général</span> -> <span class='label label-info'>Administration</span> -> <span class='label label-info'>Configuration</span>.");?><br> <?=_("Cliquez ensuite sur la section <span class='label label-info'>Market et mise à jour</span> puis entrez votre login/mot de passe du Market. Enfin cliquez sur <span class='label label-info'>Sauvegarder</span>");?></center></div>
+				    				<div class="caption"><center><?=_("Vous devez ensuite lier votre compte Market à votre box Jeedom. Cliquez sur <span class='label label-info'>Roues crantées</span> -> <span class='label label-info'>Configuration</span>.");?><br> <?=_("Cliquez ensuite sur la section <span class='label label-info'>Mises à jour</span> puis entrez votre login/mot de passe du Market. Enfin cliquez sur <span class='label label-info'>Sauvegarder</span>");?></center></div>
 				    			</div>
 				    		</div>
 				    		<div class="col-md-4">
