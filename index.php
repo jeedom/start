@@ -52,7 +52,7 @@ textdomain("index");
     		<div class="col-md-5">
     			<div class="thumbnail">
     				<img alt="sd-card" src="img/pack-smart-zwave-rfxcom.jpg" style="width: 200px;">
-    				<div class="caption"><center><b>Pack Jeedom Smart Z-Wave + Rfxcom</b><br><a href="base.php?locale=<?php echo $locale; ?>&type=rfxcom" class="btn btn-primary"><?=_("Accéder au guide");?></a></center></div>
+    				<div class="caption"><center><b>Pack Jeedom Smart Z-Wave + (Rfxcom ou RFP1000)</b><br><a href="base.php?locale=<?php echo $locale; ?>&type=rfxcom" class="btn btn-primary"><?=_("Accéder au guide");?></a></center></div>
     			</div>
     		</div>
     		<div class="col-md-1"></div>
@@ -67,7 +67,7 @@ textdomain("index");
     		<div class="col-md-5">
     			<div class="thumbnail">
     				<img alt="power-supply" src="img/pack-smart-enocean-rfxcom.jpg"  style="width: 200px;">
-    				<div class="caption"><center><b>Pack Jeedom Smart Enocean + Rfxcom</b><br><a href="base.php?locale=<?php echo $locale; ?>&type=enocean_rfxcom" class="btn btn-primary"><?=_("Accéder au guide");?></a></center></div>
+    				<div class="caption"><center><b>Pack Jeedom Smart Enocean + (Rfxcom ou RFP1000)</b><br><a href="base.php?locale=<?php echo $locale; ?>&type=enocean_rfxcom" class="btn btn-primary"><?=_("Accéder au guide");?></a></center></div>
     			</div>
     		</div>
     		<div class="col-md-1"></div>
