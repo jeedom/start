@@ -52,14 +52,14 @@ textdomain("rfxcom");
 				    			<h2><?= _("Etape 1 :");?></h2>
 				    			<div class="thumbnail">
 				    				<a data-toggle="lightbox" href="img/antenne-rfxcom.jpg"><img alt="antenne-rfxcom" src="img/antenne-rfxcom.jpg"  style="width: 200px;"></a>
-				    				<div class="caption"><center><?= _("Vissez l'antenne au RfxCom");?></center></div>
+				    				<div class="caption"><center><?= _("Vissez l'antenne au RfxCom ou celle du RFP1000");?></center></div>
 				    			</div>
 				    		</div>
 				    		<div class="col-md-4">
 				    			<h2><?= _("Etape 2 :");?></h2>
 				    			<div class="thumbnail">
 				    				<a data-toggle="lightbox" href="img/usb-rfxcom.jpg"><img alt="usb-rfxcom" src="img/usb-rfxcom.jpg"  style="width: 200px;"></a>
-				    				<div class="caption"><center><?= _("Connectez le cable USB à votre RfxCom");?></center></div>
+				    				<div class="caption"><center><?= _("Connectez le cable USB à votre RfxCom ou la clé RFP1000");?></center></div>
 				    			</div>
 				    		</div>
 				    		<div class="col-md-4">
@@ -86,7 +86,7 @@ textdomain("rfxcom");
 				    			<h2><?= _("Etape 2 :");?></h2>
 				    			<div class="thumbnail">
 				    				<a data-toggle="lightbox" href="img/plugin-rfxcom.jpg"><img alt="plugin-rfxcom" src="img/plugin-rfxcom.jpg"  style="width: 200px;"></a>
-				    				<div class="caption"><center><?= _("Recherchez le plugin RfxCom puis cliquez dessus.");?> <br>&nbsp; </center></div>
+				    				<div class="caption"><center><?= _("Recherchez le plugin RfxCom ou RFPlayer2 puis cliquez dessus.");?> <br>&nbsp; </center></div>
 				    			</div>
 				    		</div>
 				    		<div class="col-md-4">
