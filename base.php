@@ -149,7 +149,7 @@ textdomain("base");
 				    			<h2><?=_("Etape 3 :");?></h2>
 				    			<div class="thumbnail">
 				    				<a data-toggle="lightbox" href="img/service-pack.jpg"><img alt="service_pack" src="img/service-pack.jpg"  style="width: 250px;"></a>
-				    				<div class="caption"><center><?=_("Après votre connexion, cliquez sur votre <span class='label label-info'>pseudo</span> puis sur <span class='label label-info'>Profil</span>.");?><br> <?=_("Cliquez ensuite sur l'onglet <span class='label label-info'>Mes Jeedoms</span> et inscrire ici le code Service Pack reçu par Email.");?><br>&nbsp;</center></div>
+				    				<div class="caption"><center><?=_("Après votre connexion, cliquez sur votre <span class='label label-info'>pseudo</span> puis sur <span class='label label-info'>Profil</span>.");?><br> <?=_("Cliquez ensuite sur l'onglet <span class='label label-info'>Mes Services</span> et inscrire ici le code Service Pack reçu par Email dans la partie <span class='label label-info'>J'ai un Code</span>.");?><br>&nbsp;</center></div>
 				    			</div>
 				    		</div>
 				    	</div>
