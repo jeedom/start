@@ -4,9 +4,7 @@ WORKDIR /var/www/html
 
 RUN apt-get update
 RUN apt install -y php
-RUN apt install -y php-curl mariadb-client
-RUN apt install -y mariadb-client
-RUN apt install -y php-mysql
+RUN apt install -y php-curl
 RUN apt install -y php-zip
 RUN apt install -y php-mbstring
 RUN apt install -y apache2
