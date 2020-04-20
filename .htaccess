@@ -1,6 +1,0 @@
-RewriteEngine On
-RewriteCond %{HTTP_HOST} ^(www.)?jeedom.fr(.*) [OR]
-RewriteCond %{HTTP_HOST} ^jeedom.com(.*) [OR]
-RewriteCond %{HTTP_HOST} ^(www.)?start.jeedom.com(.*) [OR]
-RewriteCond %{HTTP_HOST} ^(www.)?start.jeedom.fr(.*)
-RewriteRule ^(.*)$ https://www.jeedom.com/start/$1 [R=permanent,L]
