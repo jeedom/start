@@ -134,7 +134,7 @@ textdomain("base");
 				    		<div class="col-md-4">
 				    			<h2><?=_("Etape 1 :");?></h2>
 				    			<div class="thumbnail">
-				    				<a href="https://www.jeedom.com/market" target="_blank"><img alt="market-logo" src="img/logo-MARKET.svg"  style="width: 250px;"></a>
+				    				<a href="https://market.jeedom.com" target="_blank"><img alt="market-logo" src="img/logo-MARKET.svg"  style="width: 250px;"></a>
 				    				<div class="caption"><center><?=_("Rendez-vous sur le Market Jeedom afin d'enregistrer votre Service Pack.");?><br><?=_("Vous avez du recevoir votre code Service Pack par email.");?> <br><a class="btn btn-primary btn-xs" href="https://www.jeedom.com/market" target="_blank"><i class="fa fa-share-square-o"></i>&nbsp;<?=_("Aller sur le Market");?></a></center></div>
 				    			</div>
 				    		</div>
@@ -161,7 +161,7 @@ textdomain("base");
 				    		<div class="col-md-4">
 				    			<h2><?=_("Etape 1 :");?></h2>
 				    			<div class="thumbnail">
-				    				<a href="https://www.jeedom.com/market" target="_blank"><img alt="market-logo" src="img/logo-MARKET.svg"  style="width: 250px;"></a>
+				    				<a href="https://market.jeedom.com" target="_blank"><img alt="market-logo" src="img/logo-MARKET.svg"  style="width: 250px;"></a>
 				    				<div class="caption"><center><?=_("Connectez-vous sur le Market Jeedom.");?><br> <br><a class="btn btn-primary btn-xs" href="https://www.jeedom.com/market" target="_blank"><i class="fa fa-share-square-o"></i>&nbsp;<?=_("Aller sur le Market");?></a></center></div>
 				    			</div>
 				    		</div>
