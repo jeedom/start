@@ -162,7 +162,7 @@ textdomain("base");
 								 <div class="col-md-12">
 									 Vous pouvez accéder à votre Jeedom directement à l'adresse : http://jeedomatlas.local <br /><center>
 										  <a class="btn btn-primary btn-xs" href="http://jeedomatlas.local" target="_blank"><i class="fa fa-share-square-o"></i>&nbsp;<?=_("Aller sur http://jeedomatlas.local");?></a>
-									 </center> <a class="btn btn-primary btn-xs" href="http://jeedomatlas.local" target="_blank"><i class="fa fa-share-square-o"></i>&nbsp;<?=_("Aller sur http://jeedomatlas.local");?></a>
+									 </center> 
 								 </div>
 								 <br />
 								 Si cela ne fonctionne pas, vous pouvez suivre les étapes suivantes :
