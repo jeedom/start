@@ -29,7 +29,7 @@ textdomain("index");
     <body>
     	<div class="row">
     		<div class="col-md-4"><h2>
-    			&nbsp;&nbsp;<a href="index_mini.php" class="btn btn-sm btn-info"> Guide de démarrage Mini+</a> &nbsp; 
+    			&nbsp;&nbsp;<a href="index_mini.php" class="btn btn-sm btn-info"> Guide de démarrage Mini+</a> &nbsp;
     		</h2></div>
   			<div class="col-md-1"><img alt="Jeedom" src="img/logo.png" style="width: 70px;"></div>
   			<div class="col-md-4"><h2><?=_("Guides de Démarrage");?></h2></div>
@@ -51,25 +51,19 @@ textdomain("index");
     		</div>
     		<div class="col-md-5">
     			<div class="thumbnail">
-    				<img alt="sd-card" src="img/pack-smart-zwave-rfxcom.jpg" style="width: 200px;">
-    				<div class="caption"><center><b>Pack Jeedom Smart Z-Wave + (Rfxcom ou RFP1000)</b><br><a href="base.php?locale=<?php echo $locale; ?>&type=rfxcom" class="btn btn-primary"><?=_("Accéder au guide");?></a></center></div>
+						<img alt="power-supply" src="img/pack-smart-enocean.jpg"  style="width: 200px;">
+    				<div class="caption"><center><b>Pack Jeedom Smart Enocean</b><br><a href="base.php?locale=<?php echo $locale; ?>&type=enocean" class="btn btn-primary"><?=_("Accéder au guide");?></a></center></div>
     			</div>
     		</div>
     		<div class="col-md-1"></div>
     	</div><div class="row" style="background: #96c927;">
-    		<div class="col-md-1"></div>
-    		<div class="col-md-5">
+    		<div class="col-md-3"></div>
+    		<div class="col-md-6">
     			<div class="thumbnail">
     				<img alt="power-supply" src="img/pack-smart-enocean.jpg"  style="width: 200px;">
-    				<div class="caption"><center><b>Pack Jeedom Smart Enocean</b><br><a href="base.php?locale=<?php echo $locale; ?>&type=enocean" class="btn btn-primary"><?=_("Accéder au guide");?></a></center></div>
+    				<div class="caption"><center><b>Pack Jeedom Smart Enocean</b><br><a href="base_atlas.php?locale=<?php echo $locale; ?>" class="btn btn-primary"><?=_("Accéder au guide");?></a></center></div>
     			</div>
     		</div>
-    		<div class="col-md-5">
-    			<div class="thumbnail">
-    				<img alt="power-supply" src="img/pack-smart-enocean-rfxcom.jpg"  style="width: 200px;">
-    				<div class="caption"><center><b>Pack Jeedom Smart Enocean + (Rfxcom ou RFP1000)</b><br><a href="base.php?locale=<?php echo $locale; ?>&type=enocean_rfxcom" class="btn btn-primary"><?=_("Accéder au guide");?></a></center></div>
-    			</div>
-    		</div>
-    		<div class="col-md-1"></div>
+    		<div class="col-md-3"></div>
 	    </div>
 	</body>
