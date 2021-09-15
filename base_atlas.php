@@ -158,6 +158,15 @@ textdomain("base");
 
 				    <h1><?=_("Recherche de la box sur le réseau");?></h1>
 				    <div>
+							 <div class="row">
+								 <div class="col-md-12">
+									 Vous pouvez accéder à votre Jeedom directement à l'adresse : http://jeedomatlas.local <br /><center>
+										  <a class="btn btn-primary btn-xs" href="http://jeedomatlas.local" target="_blank"><i class="fa fa-share-square-o"></i>&nbsp;<?=_("Aller sur http://jeedomatlas.local");?></a>
+									 </center> <a class="btn btn-primary btn-xs" href="http://jeedomatlas.local" target="_blank"><i class="fa fa-share-square-o"></i>&nbsp;<?=_("Aller sur http://jeedomatlas.local");?></a>
+								 </div>
+								 <br />
+								 Si cela ne fonctionne pas, vous pouvez suivre les étapes suivantes :
+							 </div>
 					    <div class="row">
 				    		<div class="col-md-4">
 				    			<h2><?=_("Etape 1 :");?></h2>
@@ -187,24 +196,10 @@ textdomain("base");
 					<div>
 				    	<div class="row">
 				    		<div class="col-md-4">
-				    			<h2><?=_("Etape 1 :");?></h2>
+				    			<h2><?=_("Connexion :");?></h2>
 				    			<div class="thumbnail">
 				    				<a data-toggle="lightbox" href="img/connect-jeedom.jpg"><img alt="connect-jeedom" src="img/connect-jeedom.jpg"  style="width: 250px;height: 170px;"></a>
 				    				<div class="caption"><center><?=_("Lors de la 1ère connexion les codes d'accès par défaut sont :");?><br> Login: <b>admin</b> <br> <?=_("Mot de passe :");?> <b>admin</b><br><br>&nbsp;</center></div>
-				    			</div>
-				    		</div>
-				    		<div class="col-md-4">
-				    			<h2><?=_("Etape 2 :");?></h2>
-				    			<div class="thumbnail">
-				    				<a data-toggle="lightbox" href="img/market-jeedom.jpg"><img alt="link-market" src="img/market-jeedom.jpg"  style="width: 250px;height: 170px;"></a>
-				    				<div class="caption"><center><?=_("Vous devez ensuite lier votre compte Market à votre box Jeedom. Cliquez sur <span class='label label-info'>Roues crantées</span> -> <span class='label label-info'>Configuration</span>.");?><br> <?=_("Cliquez ensuite sur la section <span class='label label-info'>Mises à jour</span> puis entrez votre login/mot de passe du Market. Enfin cliquez sur <span class='label label-info'>Sauvegarder</span>");?></center></div>
-				    			</div>
-				    		</div>
-				    		<div class="col-md-4">
-				    			<h2><?=_("Etape 3 :");?></h2>
-				    			<div class="thumbnail">
-				    				<a data-toggle="lightbox" href="img/password-jeedom.jpg"><img alt="password" src="img/password-jeedom.jpg"  style="width: 250px;height: 170px;"></a>
-				    				<div class="caption"><center><?=_("Il est également impératif de modifier le mot de passe par défaut.");?><br> <?=_("Cliquez sur le lien dans le bandeau jaune vous invitant à modifier votre mot de passe.<br> Cliquez ensuite sur <span class='label label-info'>Changer le mot de passe</span> afin d'en définir un nouveau.");?></center></div>
 				    			</div>
 				    		</div>
 				    	</div>

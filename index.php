@@ -60,8 +60,8 @@ textdomain("index");
     		<div class="col-md-3"></div>
     		<div class="col-md-6">
     			<div class="thumbnail">
-    				<img alt="power-supply" src="img/pack-smart-enocean.jpg"  style="width: 200px;">
-    				<div class="caption"><center><b>Pack Jeedom Smart Enocean</b><br><a href="base_atlas.php?locale=<?php echo $locale; ?>" class="btn btn-primary"><?=_("Accéder au guide");?></a></center></div>
+    				<img alt="power-supply" src="img/atlas2.jpg"  style="width: 200px;">
+    				<div class="caption"><center><b>Pack Jeedom Atlas</b><br><a href="base_atlas.php?locale=<?php echo $locale; ?>" class="btn btn-primary"><?=_("Accéder au guide");?></a></center></div>
     			</div>
     		</div>
     		<div class="col-md-3"></div>
