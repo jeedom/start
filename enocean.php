@@ -14,10 +14,10 @@ textdomain("enocean");
         <title>Jeedom - <?= _("Guide Enocean");?></title>
         <meta charset="utf-8">
         <link rel="icon" href="favicon.ico" type="image/x-icon"/>
-        <script src="3rdparty/jquery/jquery.min.js"></script> 
-        <script src="3rdparty/bootstrap/bootstrap.min.js"></script> 
+        <script src="3rdparty/jquery/jquery.min.js"></script>
+        <script src="3rdparty/bootstrap/bootstrap.min.js"></script>
         <script src="3rdparty/jquery.steps/jquery.steps.min.js"></script>
-        <script src="3rdparty/ekko-lightbox/ekko-lightbox.min.js"></script> 
+        <script src="3rdparty/ekko-lightbox/ekko-lightbox.min.js"></script>
         <link href="3rdparty/ekko-lightbox/ekko-lightbox.min.css" rel="stylesheet">
         <link href="css/flag-icon.min.css" rel="stylesheet">
         <link href="css/style.css" rel="stylesheet">
@@ -28,7 +28,7 @@ textdomain("enocean");
         $(document).delegate('*[data-toggle="lightbox"]', 'click', function(event) {
 		    event.preventDefault();
 		    $(this).ekkoLightbox();
-		}); 
+		});
         </script>
     </head>
     <body>
@@ -38,14 +38,16 @@ textdomain("enocean");
   			<div class="col-md-1"><img alt="Jeedom" src="img/logo.png" style="width: 70px;"></div>
   			<div class="col-md-4"><h2><?= _("Guide Enocean");?></h2></div>
   			<div class="col-md-3"><h2>
+          <!--
   			<a href="enocean.php?locale=fr_FR.UTF-8&type=<?= $type;?>" class="btn btn-sm btn-info"><span class="flag-icon flag-icon-fr"></span> Français</a> &nbsp; <a href="enocean.php?locale=en_US.UTF-8&type=<?= $type;?>" class="btn btn-sm btn-info"><span class="flag-icon flag-icon-gb"></span> English</a>
-  			</h2></div>
+        -->
+        </h2></div>
     	</div>
     	<div class="row" align="center">
 	    	<div class="col-xs-2"></div>
 	    	<div class="col-md-12" align="center">
 		        <div id="wizard">
-		        	
+
 		        	<h1><?= _("Désinstallation du plugin Z-Wave");?></h1>
 				    <div>
 				    	<h4><?= _("Par défaut, les boxs Jeedom sont configurées Z-Wave. Si vous n'utilisez pas le protocole Z-Wave, vous devez supprimer le plugin :");?></h4>
@@ -73,7 +75,7 @@ textdomain("enocean");
 				    		</div>
 				    	</div>
 				    </div>
-				 
+
 				    <h1><?= _("Installation du plugin Enocean");?></h1>
 				    <div>
 				    	<div class="row">
@@ -100,8 +102,8 @@ textdomain("enocean");
 				    		</div>
 				    	</div>
 				    </div>
-				    
-				    
+
+
 					<?php
 					if($_GET['type']=='enocean'){
 					?>

@@ -41,8 +41,10 @@ textdomain("base");
   			<div class="col-md-1"><img alt="Jeedom" src="img/logo.png" style="width: 70px;"></div>
   			<div class="col-md-4"><h2><?=_("Guide de Démarrage");?></h2></div>
   			<div class="col-md-3"><h2>
-  			<a href="base.php?locale=fr_FR.UTF-8&type=<?=$type;?>" class="btn btn-sm btn-info"><span class="flag-icon flag-icon-fr"></span> Français</a> &nbsp; <a href="base_atlas.php?locale=en_US.UTF-8&type=<?=$type;?>" class="btn btn-sm btn-info"><span class="flag-icon flag-icon-gb"></span> English</a>
-  			</h2></div>
+					<!--
+  			<a href="base_atlas.php?locale=fr_FR.UTF-8&type=<?=$type;?>" class="btn btn-sm btn-info"><span class="flag-icon flag-icon-fr"></span> Français</a> &nbsp; <a href="base_atlas.php?locale=en_US.UTF-8&type=<?=$type;?>" class="btn btn-sm btn-info"><span class="flag-icon flag-icon-gb"></span> English</a>
+					-->
+				</h2></div>
     	</div>
     	<div class="row" align="center">
 	    	<div class="col-xs-2"></div>
@@ -162,7 +164,7 @@ textdomain("base");
 								 <div class="col-md-12">
 									 Vous pouvez accéder à votre Jeedom directement à l'adresse : http://jeedomatlas.local <br /><center>
 										  <a class="btn btn-primary btn-xs" href="http://jeedomatlas.local" target="_blank"><i class="fa fa-share-square-o"></i>&nbsp;<?=_("Aller sur http://jeedomatlas.local");?></a>
-									 </center> 
+									 </center>
 								 </div>
 								 <br />
 								 Si cela ne fonctionne pas, vous pouvez suivre les étapes suivantes :

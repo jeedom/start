@@ -41,8 +41,10 @@ textdomain("base");
   			<div class="col-md-1"><img alt="Jeedom" src="img/logo.png" style="width: 70px;"></div>
   			<div class="col-md-4"><h2><?=_("Guide de Démarrage");?></h2></div>
   			<div class="col-md-3"><h2>
+					<!--
   			<a href="base.php?locale=fr_FR.UTF-8&type=<?=$type;?>" class="btn btn-sm btn-info"><span class="flag-icon flag-icon-fr"></span> Français</a> &nbsp; <a href="base.php?locale=en_US.UTF-8&type=<?=$type;?>" class="btn btn-sm btn-info"><span class="flag-icon flag-icon-gb"></span> English</a>
-  			</h2></div>
+				-->
+				</h2></div>
     	</div>
     	<div class="row" align="center">
 	    	<div class="col-xs-2"></div>
