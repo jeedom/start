@@ -34,8 +34,10 @@ textdomain("index");
   			<div class="col-md-1"><img alt="Jeedom" src="img/logo.png" style="width: 70px;"></div>
   			<div class="col-md-4"><h2><?=_("Guides de Démarrage");?></h2></div>
   			<div class="col-md-3"><h2>
+			<!--
   			<a href="index.php?locale=fr_FR.UTF-8" class="btn btn-sm btn-info"><span class="flag-icon flag-icon-fr"></span> Français</a> &nbsp; <a href="index.php?locale=en_US.UTF-8" class="btn btn-sm btn-info"><span class="flag-icon flag-icon-gb"></span> English</a>
-  			</h2></div>
+  			-->
+			</h2></div>
     	</div>
     	<div class="row" style="background: #96c927;">
     	<h2><center><span style="color: white;"><?=_("Quel pack possédez-vous ?");?></span></center></h2>
