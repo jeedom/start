@@ -39,20 +39,20 @@ textdomain("index");
 				-->
 				</h2></div>
     	</div>
-    	<div class="row" style="background: #96c927;">
+    	<div class="row" style="background: #96c927;margin-top:1%;">
     	<h2><center><span style="color: white;"><?=_("Quel pack possédez-vous ?");?></span></center></h2>
     	</div>
     	<div class="row" style="background: #96c927;">
 	    	<br><br>
 	    	<div class="col-md-1"></div>
 	    	<div class="col-md-5">
-    			<div class="thumbnail">
+    			<div class="thumbnail" style="border-radius:20px;height:292px;">
     				<img alt="mini+" src="img/pack-zwave.jpg" style="width: 200px;">
     				<div class="caption"><center><b>Pack Jeedom Mini+ Z-Wave</b><br><a href="base_mini.php?locale=<?php echo $locale; ?>&type=base" class="btn btn-primary"><?=_("Accéder au guide");?></a></center></div>
     			</div>
     		</div>
     		<div class="col-md-5">
-    			<div class="thumbnail">
+    			<div class="thumbnail" style="border-radius:20px;height:292px;">
     				<img alt="sd-card" src="img/pack-zwave-rfxcom.jpg" style="width: 200px;">
     				<div class="caption"><center><b>Pack Jeedom Mini+ Z-Wave + Rfxcom</b><br><a href="base_mini.php?locale=<?php echo $locale; ?>&type=rfxcom" class="btn btn-primary"><?=_("Accéder au guide");?></a></center></div>
     			</div>
@@ -61,13 +61,13 @@ textdomain("index");
     	</div><div class="row" style="background: #96c927;">
     		<div class="col-md-1"></div>
     		<div class="col-md-5">
-    			<div class="thumbnail">
+    			<div class="thumbnail" style="border-radius:20px;height:292px;">
     				<img alt="power-supply" src="img/pack-enocean.jpg"  style="width: 200px;">
     				<div class="caption"><center><b>Pack Jeedom Mini+ Enocean</b><br><a href="base_mini.php?locale=<?php echo $locale; ?>&type=enocean" class="btn btn-primary"><?=_("Accéder au guide");?></a></center></div>
     			</div>
     		</div>
     		<div class="col-md-5">
-    			<div class="thumbnail">
+    			<div class="thumbnail" style="border-radius:20px;height:292px;">
     				<img alt="power-supply" src="img/pack-enocean-rfxcom.jpg"  style="width: 200px;">
     				<div class="caption"><center><b>Pack Jeedom Mini+ Enocean + Rfxcom</b><br><a href="base_mini.php?locale=<?php echo $locale; ?>&type=enocean_rfxcom" class="btn btn-primary"><?=_("Accéder au guide");?></a></center></div>
     			</div>

@@ -6,6 +6,23 @@
  * Made By MaterializeCSS.com
  */
 
+ @media only screen and (max-width : 320px) {
+        .testMedia{
+        display:flex;
+        flex-direction:column;
+
+        }
+
+  }
+
+
+
+ .vignettes {
+    width: 100% !important;
+    height:100% !important;
+    border-radius:20px !important;
+  }
+
 .jumbotron {
     padding: 0.5em 0.6em;
     h1 {
@@ -18,3 +35,5 @@
         }
     }
 }
+
+

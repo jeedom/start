@@ -109,11 +109,11 @@ textdomain("enocean");
 					?>
 					<h1><?= _("Premiers pas avec la box Jeedom");?></h1>
 		    		<div>
-					<center><h2><?= _("Félicitation !");?></h2></center>
+					<center><h2><?= _("Félicitations !");?></h2></center>
 				    	<div class="row">
 				    		<div class="col-md-3"></div>
 				    		<div class="col-md-6">
-				    			<div class="thumbnail">
+				    			<div class="thumbnail flexThumb">
 				    				<img alt="done" src="img/check.jpg"  style="width: 300px;">
 				    				<div class="caption"><center><?=_("Votre Box Jeedom est désormais totalement opérationnelle.");?><br><br><?=_("Afin de profiter des dernières nouveautés, nous vous conseillons de mettre à jour votre Jeedom.");?><br><?=_("Nous vous invitons à consulter<br> ");?> <a href="https://www.jeedom.com/doc/" target="_blank" class="btn btn-primary" role="button"><i class="fa fa-book"></i> <?=_("la documentation complète");?> </a> <br><?=_("notamment la catégorie Premiers pas, afin d'optimiser l'utilisation de votre box Jeedom.");?></center></div>
 				    			</div>
@@ -124,7 +124,7 @@ textdomain("enocean");
 					?>
 					<h1><?= _("Configuration du RfxCom");?></h1>
 		    		<div>
-					<center><h2>Félicitation !</h2></center>
+					<center><h2>Félicitations !</h2></center>
 				    	<div class="row">
 				    		<div class="col-md-3"></div>
 				    		<div class="col-md-6">
@@ -139,6 +139,41 @@ textdomain("enocean");
 		        </div>
 	        </div>
         </div>
+		<style>
+		@media only screen and (max-width : 600px) {
+				.testMedia{
+				display:flex;
+				flex-direction:column;
+				}
+		}
+
+   .divThumb{
+	 width: 20%;
+	 min-height:20%;
+	}
+
+	.divThumb4{
+	 width: 20%;
+	 min-height:20%;
+	}
+
+
+
+	.flexThumb{
+		width: 100%;
+		height:100%;
+		border-radius:20px;
+	}
+
+	.flexThumbColumn{
+		display:flex;
+		flex-direction:column;
+		justify-content:center;
+		width:80%;
+		height:100%;
+		border-radius:20px;
+	}
+</style>
         <script>
             $("#wizard").steps({
                 headerTag: "h1",
