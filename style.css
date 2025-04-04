@@ -1,0 +1,485 @@
+.mediaViewInfo {
+	--web-view-name: start.jeedom-XD-Desktop;
+	--web-view-id: startjeedom-XD-Desktop;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: startjeedom-XD-Desktop;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#startjeedom-XD-Desktop {
+	position: absolute;
+	width: 1920px;
+	height: 1080px;
+	background-color: rgba(248,248,248,1);
+	overflow: hidden;
+	--web-view-name: start.jeedom-XD-Desktop;
+	--web-view-id: startjeedom-XD-Desktop;
+	--web-enable-deep-linking: true;
+}
+@keyframes  {
+
+
+}
+#aaa {
+	position: absolute;
+	width: 328px;
+	height: 106px;
+	left: 796px;
+	top: 140px;
+	display: none;
+	overflow: visible;
+}
+#aab {
+	border: 0;
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 329px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 28px;
+	color: rgba(69,68,73,1);
+}
+#aac {
+	border: 0;
+	left: 21px;
+	top: 73px;
+	position: absolute;
+	overflow: visible;
+	width: 288px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 28px;
+	color: rgba(69,68,73,1);
+}
+#aad {
+	position: absolute;
+	width: 634px;
+	height: 33px;
+	left: 643px;
+	top: 180px;
+	display: none;
+	overflow: visible;
+}
+#aae {
+	border: 0;
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 635px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 28px;
+	color: rgba(69,68,73,1);
+}
+#aaf {
+	position: absolute;
+	width: 491px;
+	height: 56px;
+	left: 715px;
+	top: 154px;
+	overflow: visible;
+}
+#aag {
+	border: 0;
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 492px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 48px;
+	color: rgba(69,68,73,1);
+}
+#aah {
+	position: absolute;
+	width: 350px;
+	height: 300px;
+	left: 600px;
+	top: 312px;
+	overflow: visible;
+}
+#aai {
+	fill: rgba(255,255,255,1);
+}
+.aai {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 368px;
+	height: 318px;
+	left: 0px;
+	top: 0px;
+}
+#aaj {
+	position: absolute;
+	width: 140px;
+	height: 140px;
+	left: 105px;
+	top: 40px;
+	overflow: visible;
+}
+#aak {
+	position: absolute;
+	width: 270px;
+	height: 52px;
+	left: 40px;
+	top: 208px;
+	overflow: visible;
+}
+#aal {
+	border: 0;
+	left: 0px;
+	top: 8px;
+	position: absolute;
+	overflow: visible;
+	width: 176px;
+	white-space: nowrap;
+	line-height: 20px;
+	margin-top: -2px;
+	text-align: left;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	color: rgba(69,68,73,1);
+}
+#aam {
+	position: absolute;
+	width: 36.92px;
+	height: 52px;
+	left: 233.08px;
+	top: 0px;
+	overflow: visible;
+}
+#aan {
+	position: absolute;
+	width: 36.921px;
+	height: 52px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#aao {
+	position: absolute;
+	width: 350px;
+	height: 300px;
+	left: 980px;
+	top: 312px;
+	overflow: visible;
+}
+#aap {
+	fill: rgba(255,255,255,1);
+}
+.aap {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 368px;
+	height: 318px;
+	left: 0px;
+	top: 0px;
+}
+#aaq {
+	position: absolute;
+	width: 140px;
+	height: 140px;
+	left: 105px;
+	top: 40px;
+	overflow: visible;
+}
+#aar {
+	position: absolute;
+	width: 270px;
+	height: 52px;
+	left: 40px;
+	top: 208px;
+	overflow: visible;
+}
+#aas {
+	border: 0;
+	left: 0px;
+	top: 8px;
+	position: absolute;
+	overflow: visible;
+	width: 185px;
+	white-space: nowrap;
+	line-height: 20px;
+	margin-top: -2px;
+	text-align: left;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	color: rgba(69,68,73,1);
+}
+#aat {
+	position: absolute;
+	width: 36.92px;
+	height: 52px;
+	left: 233.08px;
+	top: 0px;
+	overflow: visible;
+}
+#aau {
+	position: absolute;
+	width: 36.921px;
+	height: 52px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#aav {
+	position: absolute;
+	width: 350px;
+	height: 300px;
+	left: 600px;
+	top: 642px;
+	overflow: visible;
+}
+#aaw {
+	fill: rgba(255,255,255,1);
+}
+.aaw {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 368px;
+	height: 318px;
+	left: 0px;
+	top: 0px;
+}
+#aax {
+	position: absolute;
+	width: 140px;
+	height: 140px;
+	left: 105px;
+	top: 40px;
+	overflow: visible;
+}
+#aay {
+	position: absolute;
+	width: 261.398px;
+	height: 52px;
+	left: 40px;
+	top: 208px;
+	overflow: visible;
+}
+#aaz {
+	border: 0;
+	left: 0px;
+	top: 8px;
+	position: absolute;
+	overflow: visible;
+	width: 105px;
+	white-space: nowrap;
+	line-height: 20px;
+	margin-top: -2px;
+	text-align: left;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	color: rgba(69,68,73,1);
+}
+#aba {
+	position: absolute;
+	width: 30.318px;
+	height: 52px;
+	left: 231.08px;
+	top: 0px;
+	overflow: visible;
+}
+#abb {
+	position: absolute;
+	width: 30.318px;
+	height: 52px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#abc {
+	position: absolute;
+	width: 350px;
+	height: 300px;
+	left: 980px;
+	top: 642px;
+	overflow: visible;
+	--web-animation: fadein undefineds undefined;
+	--web-action-type: page;
+	--web-action-target: startjeedom-XD-Desktop-Luna-1.html;
+	cursor: pointer;
+}
+#abd {
+	fill: rgba(255,255,255,1);
+}
+.abd {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 368px;
+	height: 318px;
+	left: 0px;
+	top: 0px;
+}
+#abe {
+	position: absolute;
+	width: 140px;
+	height: 140px;
+	left: 105px;
+	top: 40px;
+	overflow: visible;
+}
+#abf {
+	position: absolute;
+	width: 260.318px;
+	height: 52px;
+	left: 40px;
+	top: 208px;
+	overflow: visible;
+}
+#abg {
+	border: 0;
+	left: 0px;
+	top: 8px;
+	position: absolute;
+	overflow: visible;
+	width: 105px;
+	white-space: nowrap;
+	line-height: 20px;
+	margin-top: -2px;
+	text-align: left;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	color: rgba(69,68,73,1);
+}
+#abh {
+	position: absolute;
+	width: 30.318px;
+	height: 52px;
+	left: 230px;
+	top: 0px;
+	overflow: visible;
+}
+#abi {
+	position: absolute;
+	width: 30.318px;
+	height: 52px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#abj {
+	position: absolute;
+	width: 229px;
+	height: 19px;
+	left: 846px;
+	top: 160px;
+	display: none;
+	overflow: visible;
+}
+#abk {
+	border: 0;
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 230px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	color: rgba(69,68,73,1);
+}
+#abl {
+	position: absolute;
+	width: 1920px;
+	height: 120px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#abm {
+	position: absolute;
+	width: 1920px;
+	height: 120px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#abn {
+	fill: rgba(255,255,255,1);
+}
+.abn {
+	filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 1938px;
+	height: 138px;
+	left: 0px;
+	top: 0px;
+}
+#abo {
+	position: absolute;
+	width: 180px;
+	height: 54.849px;
+	left: 1141px;
+	top: 33.188px;
+	overflow: visible;
+}
+#abp {
+	position: absolute;
+	width: 180px;
+	height: 54.849px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#abq {
+	position: absolute;
+	width: 350px;
+	height: 24px;
+	left: 610px;
+	top: 48px;
+	overflow: visible;
+}
+#abr {
+	border: 0;
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 351px;
+	height: 24px;
+	text-align: left;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(69,68,73,1);
+}
