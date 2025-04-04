@@ -3,7 +3,7 @@
 
 
 <!-- frame: start.jeedom-Desktop-Bienvenue -->
-<div class="frame startjeed-f9e3ac96617a">
+<div class="frame startjeed-f9e3ac96617a" style="background-color:#94CA02;width:100vw;height:100vh;display:flex;">
   <!-- group: Footer | Links -->
   <div class="group footer-l-f9e3ac96617b">
     <!-- rect: Rectangle -->
@@ -13,7 +13,7 @@
   <!-- group: Choisissez votre Box -->
   <div class="group choisissez-f9e3ac96617c">
     <!-- group: Block | 4 Jeedom Luna -->
-    <div class="group block-4-f9e3ac966180">
+    <div class="group block-4-f9e3ac966180"  id="lunaTuile">
       <!-- rect: Rectangle -->
       <div class="shape rect rectangle-f9e3ac966185">
       </div>
@@ -96,7 +96,7 @@
       </div>
     </div>
     <!-- group: Block | 3 Jeedom Atlas -->
-    <div class="group block-3-f9e3ac966181">
+    <div class="group block-3-f9e3ac966181"  id="atlasTuile">
       <!-- rect: Rectangle -->
       <div class="shape rect rectangle-f9e3ac96618d">
       </div>
@@ -179,7 +179,7 @@
       </div>
     </div>
     <!-- group: Block | 2 Jeedom Smart EnOcean -->
-    <div class="group block-2-f9e3ac966182">
+    <div class="group block-2-f9e3ac966182"  id="smartTuile">
       <!-- rect: Rectangle -->
       <div class="shape rect rectangle-f9e3ac96ac46">
       </div>
@@ -228,7 +228,7 @@
       </div>
     </div>
     <!-- group: Block | 1 Jeedom Smart Z-Wave -->
-    <div class="group block-1-f9e3ac966183">
+    <div class="group block-1-f9e3ac966183"  id="smartZwaveTuile">
       <!-- rect: Rectangle -->
       <div class="shape rect rectangle-f9e3ac96ac4e">
       </div>
@@ -282,7 +282,7 @@ Smart Z-Wave -->
       <div class="text-node-html" id="html-text-node-caaeef4f-27a9-80df-8005-f9e3ac966184" data-x="625.1534423828125" data-y="538.3202819824219">
         <div class="root rich-text root-0" style="display:flex;white-space:break-spaces;align-items:flex-start" xmlns="http://www.w3.org/1999/xhtml">
           <div class="paragraph-set root-0-paragraph-set-0">
-            <p class="paragraph root-0-paragraph-set-0-paragraph-0" dir="ltr"><span class="text-node root-0-paragraph-set-0-paragraph-0-text-0" style="color:rgba(0, 0, 0, 1);text-transform:none;line-break:auto;overflow-wrap:initial;white-space:break-spaces;font-size:48px;text-rendering:geometricPrecision;caret-color:rgba(0, 0, 0, 1);text-decoration:none;--font-id:gfont-raleway;--fills:[[&quot;^ &quot;,&quot;~:fill-color&quot;,&quot;#000000&quot;,&quot;~:fill-opacity&quot;,1]];letter-spacing:0px;font-family:&quot;Raleway&quot;;font-style:normal;font-weight:700">Choisissez votre Box</span></p>
+            <p class="paragraph root-0-paragraph-set-0-paragraph-0" dir="ltr"><span class="text-node root-0-paragraph-set-0-paragraph-0-text-0" style="color:rgba(0, 0, 0, 1);text-transform:none;line-break:auto;overflow-wrap:initial;white-space:break-spaces;font-size:48px;text-rendering:geometricPrecision;caret-color:rgba(0, 0, 0, 1);text-decoration:none;--font-id:gfont-raleway;--fills:[[&quot;^ &quot;,&quot;~:fill-color&quot;,&quot;#000000&quot;,&quot;~:fill-opacity&quot;,1]];letter-spacing:0px;font-family:&quot;Raleway&quot;;font-style:normal;font-weight:700">Choisissez votre Menu</span></p>
           </div>
         </div>
       </div>
@@ -314,7 +314,7 @@ Smart Z-Wave -->
       </div>
     </div>
     <!-- group: Jeedom-Start-logo -->
-    <div class="shape group jeedom-sta-f9e3ac96ac58">
+    <div class="shape group jeedom-sta-f9e3ac96ac58" >
       <svg width="139.703" xmlns="http://www.w3.org/2000/svg" height="34" id="screenshot-caaeef4f-27a9-80df-8005-f9e3ac96ac58" viewBox="625.153 369.32 139.703 34" style="-webkit-print-color-adjust::exact" xmlns:xlink="http://www.w3.org/1999/xlink" fill="none" version="1.1">
         <g id="shape-caaeef4f-27a9-80df-8005-f9e3ac96ac58" style="fill:#000000" rx="0" ry="0">
           <defs></defs>
@@ -1770,4 +1770,35 @@ Smart Z-Wave */
   border-radius: 0px 0px 0px 0px;
 }
 
+#lunaTuile, #atlasTuile, #smartTuile, #smartZwaveTuile :hover {
+  cursor: pointer;
+}
+
 </style>
+
+
+<script>
+
+
+
+
+document.getElementById('lunaTuile').addEventListener('click', function() {
+  window.open('luna/index_luna.php');
+});
+
+document.getElementById('atlasTuile').addEventListener('click', function() {
+  window.open('luna/index_luna.php');
+});
+
+
+document.getElementById('smartTuile').addEventListener('click', function() {
+  window.open('luna/index_luna.php');
+});
+
+document.getElementById('smartZwaveTuile').addEventListener('click', function() {
+  window.open('luna/index_luna.php');
+});
+
+
+
+</script>
