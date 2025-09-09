@@ -1,4 +1,5 @@
 <!-- frame: start.jeedom-Desktop-Luna-3-Inscription-Jeedom-Market -->
+<link rel="stylesheet" type="text/css" href="../css/responsive.css">
 <div class="frame startjeed-f9e3ac96609d">
   <!-- group: Footer | Links -->
   <div class="group footer-l-f9e3ac96609e">

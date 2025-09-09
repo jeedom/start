@@ -1,5 +1,6 @@
 <?php
 ?>
+<link rel="stylesheet" type="text/css" href="css/responsive.css">
 
 
 <!-- frame: start.jeedom-Desktop-Bienvenue -->

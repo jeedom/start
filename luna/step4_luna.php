@@ -1,4 +1,5 @@
 <!-- frame: start.jeedom-Desktop-Luna-4-Recherche-de-la-box-sur-le-réseau -->
+<link rel="stylesheet" type="text/css" href="../css/responsive.css">
 <div class="frame startjeed-f9e3ac96605e">
   <!-- group: Footer | Links -->
   <div class="group footer-l-f9e3ac96605f">

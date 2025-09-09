@@ -1,4 +1,5 @@
 <!-- frame: start.jeedom-Desktop-Luna-1-Déballage -->
+<link rel="stylesheet" type="text/css" href="../css/responsive.css">
 <div class="frame startjeed-f9e3ac966110">
   <!-- group: Footer | Links -->
   <div class="group footer-l-f9e3ac966111">
