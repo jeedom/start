@@ -315,8 +315,8 @@ Smart Z-Wave -->
       </div>
     </div>
     <!-- group: Jeedom-Start-logo -->
-    <div class="shape group jeedom-sta-f9e3ac96ac58" >
-      <svg width="139.703" xmlns="http://www.w3.org/2000/svg" height="34" id="screenshot-caaeef4f-27a9-80df-8005-f9e3ac96ac58" viewBox="625.153 369.32 139.703 34" style="-webkit-print-color-adjust::exact" xmlns:xlink="http://www.w3.org/1999/xlink" fill="none" version="1.1">
+    <div class="shape group jeedom-sta-f9e3ac96ac58">
+      <svg width="200" xmlns="http://www.w3.org/2000/svg" height="45" id="screenshot-caaeef4f-27a9-80df-8005-f9e3ac96ac58" viewBox="625.153 369.32 139.703 34" style="-webkit-print-color-adjust::exact" xmlns:xlink="http://www.w3.org/1999/xlink" fill="none" version="1.1">
         <g id="shape-caaeef4f-27a9-80df-8005-f9e3ac96ac58" style="fill:#000000" rx="0" ry="0">
           <defs></defs>
           <g id="shape-caaeef4f-27a9-80df-8005-f9e3ac96ac59">
