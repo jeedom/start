@@ -2587,7 +2587,7 @@ document.getElementById('step5Wizard').addEventListener('click', function() {
 });
 
     document.getElementById('backArrow').addEventListener('click', function() {
-        window.open('index.php');
+        window.location.href = '../index.php';
     });
 
 </script>

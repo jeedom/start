@@ -3,7 +3,7 @@
 
 
 <!-- frame: start.jeedom-Desktop-Bienvenue -->
-<div class="frame startjeed-f9e3ac96617a" style="background-color:#94CA02;width:100vw;height:100vh;display:flex;">
+<div class="frame startjeed-f9e3ac96617a" style="width:100vw;height:100vh;display:flex;">
   <!-- group: Footer | Links -->
   <div class="group footer-l-f9e3ac96617b">
     <!-- rect: Rectangle -->
@@ -282,7 +282,7 @@ Smart Z-Wave -->
       <div class="text-node-html" id="html-text-node-caaeef4f-27a9-80df-8005-f9e3ac966184" data-x="625.1534423828125" data-y="538.3202819824219">
         <div class="root rich-text root-0" style="display:flex;white-space:break-spaces;align-items:flex-start" xmlns="http://www.w3.org/1999/xhtml">
           <div class="paragraph-set root-0-paragraph-set-0">
-            <p class="paragraph root-0-paragraph-set-0-paragraph-0" dir="ltr"><span class="text-node root-0-paragraph-set-0-paragraph-0-text-0" style="color:rgba(0, 0, 0, 1);text-transform:none;line-break:auto;overflow-wrap:initial;white-space:break-spaces;font-size:48px;text-rendering:geometricPrecision;caret-color:rgba(0, 0, 0, 1);text-decoration:none;--font-id:gfont-raleway;--fills:[[&quot;^ &quot;,&quot;~:fill-color&quot;,&quot;#000000&quot;,&quot;~:fill-opacity&quot;,1]];letter-spacing:0px;font-family:&quot;Raleway&quot;;font-style:normal;font-weight:700">Choisissez votre Menu</span></p>
+            <p class="paragraph root-0-paragraph-set-0-paragraph-0" dir="ltr"><span class="text-node root-0-paragraph-set-0-paragraph-0-text-0" style="color:rgba(0, 0, 0, 1);text-transform:none;line-break:auto;overflow-wrap:initial;white-space:break-spaces;font-size:48px;text-rendering:geometricPrecision;caret-color:rgba(0, 0, 0, 1);text-decoration:none;--font-id:gfont-raleway;--fills:[[&quot;^ &quot;,&quot;~:fill-color&quot;,&quot;#000000&quot;,&quot;~:fill-opacity&quot;,1]];letter-spacing:0px;font-family:&quot;Raleway&quot;;font-style:normal;font-weight:700">Choisissez votre Box</span></p>
           </div>
         </div>
       </div>

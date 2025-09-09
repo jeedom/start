@@ -3218,26 +3218,26 @@ body {
 
 
 document.getElementById('step1Wizard').addEventListener('click', function() {
-    window.open('step1_luna.php');
+    window.location.href = 'step1_luna.php';
 });
 
 document.getElementById('step2Wizard').addEventListener('click', function() {
-    window.open('step2_luna.php');
+    window.location.href = 'step2_luna.php';
 });
 
 document.getElementById('step3Wizard').addEventListener('click', function() {
-    window.open('step3_luna.php');
+    window.location.href = 'step3_luna.php';
 });
 
 document.getElementById('step4Wizard').addEventListener('click', function() {
-    window.open('step4_luna.php');
+    window.location.href = 'step4_luna.php';
 });
 document.getElementById('step5Wizard').addEventListener('click', function() {
-    window.open('step5_luna.php');
+    window.location.href = 'step5_luna.php';
 });
 
     document.getElementById('backArrow').addEventListener('click', function() {
-        window.open('index.php');
+        window.location.href = '../index.php';
     });
 
 </script>
