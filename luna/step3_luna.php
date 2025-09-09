@@ -2094,8 +2094,9 @@ document.getElementById('step5Wizard').addEventListener('click', function() {
     window.location.href = 'step5_luna.php';
 });
 
-    document.getElementById('backArrow').addEventListener('click', function() {
-        window.location.href = '../index.php';
-    });
+
+document.querySelector('.ctareturn-f9e3ac9660c0').addEventListener('click', function() {
+    window.location.href = '../index.php';
+});
 
 </script>
