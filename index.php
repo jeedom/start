@@ -1793,20 +1793,20 @@ Smart Z-Wave */
 
 
 document.getElementById('lunaTuile').addEventListener('click', function() {
-  window.open('luna/index_luna.php');
+  window.location.href = 'luna/index_luna.php';
 });
 
 document.getElementById('atlasTuile').addEventListener('click', function() {
-  window.open('luna/index_luna.php');
+  window.location.href = 'atlas/index_atlas.php';
 });
 
 
 document.getElementById('smartTuile').addEventListener('click', function() {
-  window.open('luna/index_luna.php');
+  window.location.href = 'luna/index_luna.php';
 });
 
 document.getElementById('smartZwaveTuile').addEventListener('click', function() {
-  window.open('luna/index_luna.php');
+  window.location.href = 'luna/index_luna.php';
 });
 
 
