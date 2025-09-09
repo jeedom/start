@@ -484,6 +484,8 @@ body {
 
 .text-node { background-clip: text !important; -webkit-background-clip: text !important; }
 
+
+
 /* start.jeedom-Desktop-Bienvenue */
 .startjeed-f9e3ac96617a {
   position: relative;
@@ -1771,8 +1773,15 @@ Smart Z-Wave */
   border-radius: 0px 0px 0px 0px;
 }
 
-#lunaTuile, #atlasTuile, #smartTuile, #smartZwaveTuile :hover {
+#lunaTuile, #atlasTuile, #smartTuile, #smartZwaveTuile {
   cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#lunaTuile:hover, #atlasTuile:hover, #smartTuile:hover, #smartZwaveTuile:hover {
+  transform: translateY(-5px); 
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+
 }
 
 </style>
