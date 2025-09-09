@@ -2197,4 +2197,28 @@ body {
 
 </style>
 
+<script>
+document.getElementById('step1Wizard').addEventListener('click', function() {
+    window.location.href = 'step1_luna.php';
+});
+
+document.getElementById('step2Wizard').addEventListener('click', function() {
+    window.location.href = 'step2_luna.php';
+});
+
+document.getElementById('step3Wizard').addEventListener('click', function() {
+    window.location.href = 'step3_luna.php';
+});
+
+document.getElementById('step4Wizard').addEventListener('click', function() {
+    window.location.href = 'step4_luna.php';
+});
+document.getElementById('step5Wizard').addEventListener('click', function() {
+    window.location.href = 'step5_luna.php';
+});
+
+document.querySelector('.ctareturn-f9e3ac966083').addEventListener('click', function() {
+    window.location.href = 'index_luna.php';
+});
+</script>
 

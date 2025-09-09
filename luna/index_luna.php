@@ -3218,22 +3218,22 @@ body {
 
 
 document.getElementById('step1Wizard').addEventListener('click', function() {
-    window.open('new_luna_step1.php');
+    window.open('step1_luna.php');
 });
 
 document.getElementById('step2Wizard').addEventListener('click', function() {
-    window.open('new_luna_step2.php');
+    window.open('step2_luna.php');
 });
 
 document.getElementById('step3Wizard').addEventListener('click', function() {
-    window.open('new_luna_step3.php');
+    window.open('step3_luna.php');
 });
 
 document.getElementById('step4Wizard').addEventListener('click', function() {
-    window.open('new_luna_step4.php');
+    window.open('step4_luna.php');
 });
 document.getElementById('step5Wizard').addEventListener('click', function() {
-    window.open('new_luna_step5.php');
+    window.open('step5_luna.php');
 });
 
     document.getElementById('backArrow').addEventListener('click', function() {
