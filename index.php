@@ -33,32 +33,34 @@
                     <div class="card">
                         <div class="card-content">
                             <h2>Jeedom <br>Smart Z-Wave</h2>
-                            <p>Une tablette facile à poser sur sa station d'accueil et à l'en retirer</p>
                         </div>
-                        <img src="img/jeedom-smart/pack-jeedom-smart-z-wave.png" alt="Jeedom Smart Z-Wave">
+                        <a href="box-smart.html">
+                            <img src="img/jeedom-smart/pack-jeedom-smart-z-wave.png" alt="Jeedom Smart Z-Wave">
+                        </a>
                     </div>
                     <div class="card">
                         <div class="card-content">
                             <h2>Jeedom <br>Smart EnOcean</h2>
-                            <p>Une tablette facile à poser sur sa station d'accueil et à l'en retirer</p>
                         </div>
-                        <img src="img/jeedom-smart/pack-jeedom-smart-z-wave.png" alt="Jeedom Smart EnOcean">
+                        <a href="box-smart.html">
+                            <img src="img/jeedom-smart/pack-jeedom-smart-z-wave.png" alt="Jeedom Smart EnOcean">
+                        </a>
                     </div>
                     <div class="card">
                         <div class="card-content">
                             <h2>Jeedom <br>Atlas</h2>
-                            <p>Une tablette facile à poser sur sa station d'accueil et à l'en retirer</p>
                         </div>
-                        <img src="img/jeedom-atlas/pack-jeedom-atlas.png" alt="Jeedom Atlas">
+                        <a href="box-atlas.html">
+                            <img src="img/jeedom-atlas/pack-jeedom-atlas.png" alt="Jeedom Atlas">
+                        </a>
                     </div>
                     <div class="card">
                         <div class="card-content">
                             <h2>Jeedom <br>Luna</h2>
-                            <p>Une tablette facile à poser sur sa station d'accueil et à l'en retirer</p>
                         </div>
                         <a href="box-luna.html">
-                        <img src="img/jeedom-luna/pack-jeedom-luna.png"  alt="Jeedom Luna">
-                    </a>
+                            <img src="img/jeedom-luna/pack-jeedom-luna.png" alt="Jeedom Luna">
+                        </a>
                     </div>
                 </div>
             </div>

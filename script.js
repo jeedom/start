@@ -47,5 +47,54 @@ document.addEventListener('DOMContentLoaded', () => {
 
     window.addEventListener('scroll', toggleBackToTopButton);
     backToTopButton.addEventListener('click', scrollToTop);
+    
+    /**
+     * MENU NAVIGATION
+     * Handles the active state of menu items based on scroll position
+     */
+    const menuItems = document.querySelectorAll('.menu-item');
+    const sections = document.querySelectorAll('section[id]');
+    
+    if (menuItems.length > 0 && sections.length > 0) {
+        // Function to set active menu item based on scroll position
+        const setActiveMenuItem = () => {
+            let currentSection = '';
+            
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.offsetHeight;
+                
+                if (window.scrollY >= sectionTop - 200 && window.scrollY < sectionTop + sectionHeight - 200) {
+                    currentSection = section.getAttribute('id');
+                }
+            });
+            
+            menuItems.forEach(item => {
+                item.classList.remove('active');
+                if (item.getAttribute('href') === `#${currentSection}`) {
+                    item.classList.add('active');
+                }
+            });
+        };
+        
+        window.addEventListener('scroll', setActiveMenuItem);
+        
+        // Add smooth scrolling to menu items
+        menuItems.forEach(item => {
+            item.addEventListener('click', function(e) {
+                e.preventDefault();
+                
+                const targetId = this.getAttribute('href');
+                const targetSection = document.querySelector(targetId);
+                
+                if (targetSection) {
+                    window.scrollTo({
+                        top: targetSection.offsetTop - 80,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+    }
 
 });

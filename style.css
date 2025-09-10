@@ -101,6 +101,7 @@ body {
 /* --- TYPOGRAPHY AND SECTIONS --- */
 section {
     padding: 3rem 0;
+    scroll-margin-top: 5rem; /* Pour que les ancres tiennent compte du menu sticky */
 }
 
 .intro-text {
@@ -230,11 +231,11 @@ h2 {
 }
 
 /* --- BOX CONTENTS SECTION --- */
-.box-contents-section {
+.box-contents-section, .section {
     padding-top: 3rem;
 }
 
-.box-contents-section h1 {
+.box-contents-section h1, .section h1 {
     font-size: 2rem;
 }
 
