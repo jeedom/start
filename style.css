@@ -269,6 +269,10 @@ h2 {
     height:60px;
 }
 
+.item-card p{
+height:46px;
+}
+
 .item-card .item-number {
     font-weight: 700;
     color: var(--heading-color);
