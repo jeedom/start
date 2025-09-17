@@ -29,7 +29,7 @@
             <div class="content-wrapper">
                 <p class="intro-text">Bienvenue dans l'univers de la domotique avec Jeedom</p>
                 <h1>Choisissez votre Box</h1>
-                <div class="card-grid">
+                <div class="card-grid-index">
                     <div class="card">
                         <div class="card-content">
                             <h2>Jeedom <br>Smart Z-Wave</h2>
@@ -44,6 +44,14 @@
                         </div>
                         <a href="box-smart.html">
                             <img src="img/jeedom-smart/pack-jeedom-smart-z-wave.png" alt="Jeedom Smart EnOcean">
+                        </a>
+                    </div>
+                    <div class="card">
+                        <div class="card-content">
+                            <h2>Jeedom <br>Smart</h2>
+                        </div>
+                        <a href="box-smart.html">
+                            <img src="img/jeedom-smart/pack-jeedom-smart-z-wave-sans-antenne.png" alt="Jeedom Smart">
                         </a>
                     </div>
                     <div class="card">

@@ -136,6 +136,12 @@ h2 {
     gap: 2rem;
 }
 
+.card-grid-index{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 2rem;
+}
+
 .card {
     background-color: var(--card-background);
     border: 1px solid var(--border-color);
@@ -146,6 +152,8 @@ h2 {
     box-shadow: 0 4px 6px var(--shadow-color);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+
+
 
 .card:hover {
     transform: translateY(-8px);
@@ -305,6 +313,9 @@ h2 {
     .card-grid {
         grid-template-columns: repeat(2, 1fr);
     }
+    .card-grid-index{
+        grid-template-columns: repeat(3, 1fr);
+    }
     .menu-items {
         gap: 0.5rem;
     }
@@ -323,6 +334,9 @@ h2 {
     }
     .card-grid {
         grid-template-columns: 1fr;
+    }
+    .card-grid-index{
+        grid-template-columns: repeat(2, 1fr);
     }
     .menu-content {
         flex-direction: column;
