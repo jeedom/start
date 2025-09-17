@@ -32,6 +32,8 @@
     margin-top: 50px !important;
 }
 
+
+
 /* --- GENERAL STYLES --- */
 *, *::before, *::after {
     box-sizing: border-box;
@@ -183,9 +185,11 @@ h2 {
 }
 
 .card img {
-    max-width: 100%;
-    height: auto;
+    /* max-width: 100%;
+    height: auto; */
     margin-top: auto;
+    width: 160px;
+    height: 140px;
 }
 
 /* --- STICKY NAVIGATION MENU --- */
@@ -262,6 +266,7 @@ h2 {
     align-items: center;
     gap: 0.75rem;
     margin-bottom: 0.5rem;
+    height:60px;
 }
 
 .item-card .item-number {

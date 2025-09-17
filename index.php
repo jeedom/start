@@ -50,7 +50,7 @@
                         <div class="card-content">
                             <h2>Jeedom <br>Smart</h2>
                         </div>
-                        <a href="box-smart.html">
+                        <a href="box-smart-sans-antenne.html">
                             <img src="img/jeedom-smart/pack-jeedom-smart-z-wave-sans-antenne.png" alt="Jeedom Smart">
                         </a>
                     </div>
