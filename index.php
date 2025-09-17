@@ -19,7 +19,7 @@
             <img src="img/Jeedom-Start-logo.svg" alt="Jeedom Start Logo" class="logo">
             <div class="header-controls">
                 <span class="header-title">Guides de démarrage Jeedom</span>
-                <button id="theme-switcher" aria-label="Toggle light/dark theme">🌙</button>
+                <!-- <button id="theme-switcher" aria-label="Toggle light/dark theme">🌙</button> -->
             </div>
         </div>
     </header>
