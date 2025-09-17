@@ -88,10 +88,32 @@ document.addEventListener('DOMContentLoaded', () => {
                 const targetSection = document.querySelector(targetId);
                 
                 if (targetSection) {
-                    window.scrollTo({
-                        top: targetSection.offsetTop - 80,
-                        behavior: 'smooth'
-                    });
+                    // Ajustement dynamique en fonction de la taille de l'écran
+                    const windowWidth = window.innerWidth;
+                    let scrollOffset;
+                    
+                    // Calcul de l'offset en fonction de la taille de l'écran
+                    if (windowWidth <= 480) {
+                        // Très petits écrans (téléphones)
+                        scrollOffset = 250;
+                    } else if (windowWidth <= 768) {
+                        // Tablettes et petits écrans
+                        scrollOffset = 220;
+                    } else if (windowWidth <= 1024) {
+                        // Tablettes en mode paysage
+                        scrollOffset = 150;
+                    } else {
+                        // Desktop
+                        scrollOffset = 100;
+                    }
+                    
+                    // Ajouter un léger délai pour s'assurer que tout est bien chargé
+                    setTimeout(() => {
+                        window.scrollTo({
+                            top: targetSection.offsetTop - scrollOffset,
+                            behavior: 'smooth'
+                        });
+                    }, 50);
                 }
             });
         });

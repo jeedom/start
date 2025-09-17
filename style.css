@@ -108,7 +108,7 @@ body {
 /* --- TYPOGRAPHY AND SECTIONS --- */
 section {
     padding: 3rem 0;
-    scroll-margin-top: 5rem; /* Pour que les ancres tiennent compte du menu sticky */
+    scroll-margin-top: 100px; /* Augmentation de la marge pour les ancres en mode desktop */
 }
 
 .intro-text {
@@ -277,10 +277,12 @@ h2 {
 /* --- BOX CONTENTS SECTION --- */
 .box-contents-section, .section {
     padding-top: 3rem;
+    position: relative; /* Ajout pour meilleur positionnement */
 }
 
 .box-contents-section h1, .section h1 {
     font-size: 2rem;
+    position: relative; /* Assure un meilleur positionnement */
 }
 
 .item-card {
@@ -393,5 +395,26 @@ height:46px;
     }
     .header-title {
         display: none; /* Hide text on small screens for more space */
+    }
+    
+    /* Augmentation de la marge pour les ancres en mode mobile */
+    section {
+        scroll-margin-top: 220px;
+        padding-top: 30px; /* Augmentation du padding en haut des sections */
+    }
+    
+    /* S'assurer que les titres sont bien visibles après le scroll */
+    .box-contents-section h1, .section h1 {
+        padding-top: 20px;
+        margin-top: 10px;
+    }
+    
+    /* Ajustement du menu sticky en mobile */
+    .sticky-menu {
+        padding: 0.5rem 0;
+    }
+    
+    .menu-items {
+        margin-top: 0.5rem;
     }
 }
