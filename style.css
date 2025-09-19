@@ -32,6 +32,11 @@
     margin-top: 50px !important;
 }
 
+a:has(.item-card) {
+    text-decoration: none !important;
+    color: inherit;
+}
+
 
 
 /* --- GENERAL STYLES --- */
