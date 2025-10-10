@@ -1,9 +1,11 @@
 document.addEventListener('DOMContentLoaded', () => {
 
-    /**
-     * THEME SWITCHER
-     * Manages light and dark mode toggling and persists the setting.
-     */
+    const menuItemsInitial = document.querySelectorAll('.menu-item');
+    menuItemsInitial.forEach(item => {
+        item.classList.remove('active');
+    });
+
+
     const themeSwitcher = document.getElementById('theme-switcher');
     const htmlElement = document.documentElement;
 
@@ -62,7 +64,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const determineActiveSection = () => {
             const scrollPos = window.scrollY;
             const viewportHeight = window.innerHeight;
-            const scrollThreshold = viewportHeight * 0.25;
+            const scrollThreshold = viewportHeight * 0.3; 
             
 
             const sectionPositions = sectionsData.map(section => {
@@ -71,52 +73,64 @@ document.addEventListener('DOMContentLoaded', () => {
                 
                 return {
                     id: section.id,
-                    top: rect.top + scrollPos - scrollThreshold, 
+                    top: rect.top + scrollPos, 
                     bottom: rect.bottom + scrollPos,
-                    height: rect.height
+                    height: rect.height,
+                    visible: rect.top < viewportHeight * 0.7 && rect.bottom > 0 
                 };
             });
             
 
-            let activeSection = null;
+            let mostVisibleSection = null;
+            let maxVisibility = 0;
             
-
-            for (let i = sectionPositions.length - 1; i >= 0; i--) {
-                const section = sectionPositions[i];
-                
-
-                if (scrollPos >= section.top) {
-                    activeSection = section.id;
-                    break;
+            for (const section of sectionPositions) {
+                if (section.visible) {
+                    const visibleHeight = Math.min(window.innerHeight, section.bottom) - 
+                                         Math.max(0, section.top - scrollPos);
+                    
+                    const visibilityRatio = visibleHeight / section.height;
+                    
+                    if (visibilityRatio > maxVisibility) {
+                        maxVisibility = visibilityRatio;
+                        mostVisibleSection = section.id;
+                    }
                 }
             }
             
 
-            if (!activeSection && sectionPositions.length > 0) {
-                activeSection = sectionPositions[0].id;
+            if (!mostVisibleSection) {
+                for (let i = 0; i < sectionPositions.length; i++) {
+                    const section = sectionPositions[i];
+                    if (scrollPos >= section.top - viewportHeight / 2) {
+                        mostVisibleSection = section.id;
+                        break;
+                    }
+                }
             }
             
-            return activeSection;
+
+            if (!mostVisibleSection && sectionPositions.length > 0) {
+                mostVisibleSection = sectionPositions[0].id;
+            }
+            
+            return mostVisibleSection;
         };
         
 
         const updateMenuItems = (activeId) => {
             if (!activeId) return;
             
-            menuItems.forEach(item => {
-                const href = item.getAttribute('href');
-                const itemId = href ? href.substring(1) : '';
-                
-                if (itemId === activeId) {
-                    item.classList.add('active');
 
-                    setTimeout(() => {
-                        item.classList.add('active');
-                    }, 0);
-                } else {
-                    item.classList.remove('active');
-                }
+            document.querySelectorAll('.menu-item').forEach(menuItem => {
+                menuItem.classList.remove('active');
             });
+            
+
+            const targetMenuItem = document.querySelector(`.menu-item[href="#${activeId}"]`);
+            if (targetMenuItem) {
+                targetMenuItem.classList.add('active');
+            }
         };
         
 
@@ -144,9 +158,9 @@ document.addEventListener('DOMContentLoaded', () => {
                 if (targetSection) {
 
                     menuItems.forEach(menuItem => menuItem.classList.remove('active'));
+
                     this.classList.add('active');
                     
-
                     const windowWidth = window.innerWidth;
                     let scrollOffset;
                     
@@ -165,25 +179,50 @@ document.addEventListener('DOMContentLoaded', () => {
                         top: targetSection.offsetTop - scrollOffset,
                         behavior: 'smooth'
                     });
+                    
+
+                    setTimeout(() => {
+                        updateActiveMenuItem();
+                    }, 800); 
                 }
             });
         });
         
 
+
+        document.querySelectorAll('.menu-item').forEach(item => {
+            item.classList.remove('active');
+        });
+        
         if (window.location.hash) {
             const targetId = window.location.hash.substring(1);
             updateMenuItems(targetId);
         } else {
 
-            if (menuItems.length > 0) {
-                menuItems[0].classList.add('active');
-            }
+            updateActiveMenuItem();
         }
         
 
-        window.addEventListener('load', updateActiveMenuItem);
+        window.addEventListener('load', () => {
 
-        setTimeout(updateActiveMenuItem, 500);
+            document.querySelectorAll('.menu-item').forEach(item => {
+                item.classList.remove('active');
+            });
+            
+            updateActiveMenuItem();
+            
+            setTimeout(() => {
+                updateActiveMenuItem();
+            }, 100);
+            
+            setTimeout(() => {
+                updateActiveMenuItem();
+            }, 500);
+            
+            setTimeout(() => {
+                updateActiveMenuItem();
+            }, 1000);
+        });
     }
 
 });
