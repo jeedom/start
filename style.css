@@ -331,6 +331,37 @@ height:46px;
     align-self: center;
 }
 
+/* Styles pour la notice box */
+.notice-box {
+    background-color: var(--card-background);
+    border: 2px solid var(--accent-color);
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    box-shadow: 0 4px 6px var(--shadow-color);
+}
+
+.notice-box p {
+    margin: 0;
+    font-size: 1.1rem;
+    color: var(--text-color);
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.notice-box .btn {
+    margin-left: 0.5rem;
+}
+
 /* --- BACK TO TOP BUTTON --- */
 #back-to-top {
     position: fixed;
