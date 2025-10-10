@@ -333,9 +333,43 @@ height:46px;
     line-height: 1.2;
 }
 
-.item-card img {
+.item-card img:not(.card-image-container img):not(.branchement-container img) {
     margin-top: 1.5rem;
     align-self: center;
+    max-height: 200px;
+    width: auto;
+    object-fit: contain;
+}
+
+/* Conteneurs d'images avec hauteur fixe */
+.card-image-container {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin-top: 1.5rem;
+}
+
+.card-image-container img {
+    max-height: 100%;
+    width: auto;
+    object-fit: contain;
+}
+
+.branchement-container {
+    height: 240px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin-top: 1.5rem;
+}
+
+.branchement-container img {
+    max-height: 100%;
+    width: auto;
+    object-fit: contain;
 }
 
 /* Styles pour la page Bien débuter */
