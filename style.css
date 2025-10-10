@@ -287,7 +287,14 @@ h2 {
 
 .box-contents-section h1, .section h1 {
     font-size: 2rem;
-    position: relative; 
+    position: relative;
+}
+
+/* Style pour les titres h1 avec liseret vert dans bien-debuter.html */
+.section h1.with-border {
+    padding-left: 15px;
+    border-left: 4px solid var(--accent-color);
+    display: inline-block;
 }
 
 .item-card {
