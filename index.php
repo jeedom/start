@@ -28,6 +28,14 @@
         <section class="welcome-section">
             <div class="content-wrapper">
                 <p class="intro-text">Bienvenue dans l'univers de la domotique avec Jeedom</p>
+                    <div class="card-grid-index">
+                       <div class="card">
+                        <div class="card-content">
+                            <a href="bien-debuter.html" style="text-decoration: none;"> <h2>Avant de débuter sur Jeedom</h2></a>
+                        </div>
+                       
+                    </div>
+                </div>
                 <h1>Choisissez votre Box</h1>
                 <div class="card-grid-index">
                     <div class="card">
@@ -71,6 +79,7 @@
                         </a>
                     </div>
                 </div>
+
             </div>
         </section>
 
