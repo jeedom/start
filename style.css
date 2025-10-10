@@ -300,6 +300,7 @@ h2 {
 .item-card {
     padding: 1.5rem;
     text-align: left;
+    height:100%;
 }
 
 .item-card .item-header {
@@ -343,7 +344,7 @@ height:46px;
 
 /* Conteneurs d'images avec hauteur fixe */
 .card-image-container {
-    height: 200px;
+    /* height: 200px; */
     display: flex;
     align-items: center;
     justify-content: center;
