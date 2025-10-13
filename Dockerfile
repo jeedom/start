@@ -19,8 +19,9 @@ ENV APACHE_LOG_DIR /var/log/apache2
 ENV APACHE_PID_FILE /var/run/apache2/apache2.pid
 ENV APACHE_SERVER_NAME localhost
 
-# ADD . /var/www/html
+ADD . /var/www/html
 RUN rm -f /var/www/html/index.html
 
 EXPOSE 80
 CMD ["/usr/sbin/apache2ctl", "-DFOREGROUND"]
+
