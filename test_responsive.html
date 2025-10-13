@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Responsive</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            text-align: center;
+        }
+        h1 {
+            color: #333;
+        }
+        .button {
+            display: inline-block;
+            margin: 10px;
+            padding: 10px 20px;
+            background-color: #94CA02;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .info {
+            margin: 20px 0;
+            padding: 15px;
+            background-color: #f5f5f5;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Test des modifications responsives</h1>
+        
+        <div class="info">
+            <p>Cette page vous permet de tester les modifications apportées au site Jeedom Start pour résoudre le problème de décalage.</p>
+            <p>Cliquez sur les liens ci-dessous pour voir les différentes pages avec les nouvelles règles CSS responsives.</p>
+        </div>
+        
+        <a href="index.php" class="button">Page d'accueil</a>
+        <a href="luna/index_luna.php" class="button">Luna - Accueil</a>
+        <a href="luna/step1_luna.php" class="button">Luna - Étape 1</a>
+        <a href="luna/step2_luna.php" class="button">Luna - Étape 2</a>
+        <a href="luna/step3_luna.php" class="button">Luna - Étape 3</a>
+        <a href="luna/step4_luna.php" class="button">Luna - Étape 4</a>
+        <a href="luna/step5_luna.php" class="button">Luna - Étape 5</a>
+        
+        <div class="info" id="screenInfo">
+            <h3>Informations sur l'écran :</h3>
+            <p id="windowSize"></p>
+        </div>
+    </div>
+
+    <script>
+        // Affiche la taille de l'écran
+        function updateScreenInfo() {
+            document.getElementById('windowSize').innerHTML = 
+                'Largeur de fenêtre : ' + window.innerWidth + 'px<br>' +
+                'Hauteur de fenêtre : ' + window.innerHeight + 'px';
+        }
+        
+        // Met à jour les infos au chargement et au redimensionnement
+        window.onload = updateScreenInfo;
+        window.onresize = updateScreenInfo;
+    </script>
+</body>
+</html>

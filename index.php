@@ -1,77 +1,76 @@
 <?php
-header('content-type: text/html; charset=utf-8');
 
-$locale = "fr_FR.UTF-8";
-if (isSet($_GET["locale"])) {
-	$locale = $_GET["locale"];
-}
-
-putenv("LC_MESSAGES=$locale");
-setlocale(LC_MESSAGES, $locale);
-bindtextdomain("index", "./locale");
-textdomain("index");
 ?>
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Jeedom - <?=_("Guides de Démarrage");?></title>
-        <meta charset="utf-8">
-        <link rel="icon" href="favicon.ico" type="image/x-icon"/>
-        <script src="3rdparty/jquery/jquery.min.js"></script>
-        <script src="3rdparty/bootstrap/bootstrap.min.js"></script>
-        <script src="3rdparty/jquery.steps/jquery.steps.min.js"></script>
-        <link href="css/flag-icon.min.css" rel="stylesheet">
-        <link href="css/style.css" rel="stylesheet">
-        <link href="3rdparty/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-        <link href="3rdparty/jquery.steps/jquery.steps.css" rel="stylesheet">
-        <link href="3rdparty/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    </head>
-    <body>
-    	<div class="row">
-    		<div class="col-md-4"><h2>
-    			&nbsp;&nbsp;<a href="index_mini.php" class="btn btn-sm btn-info"> Guide de démarrage Mini+</a> &nbsp;
-    		</h2></div>
-  			<div class="col-md-1"><img alt="Jeedom" src="img/logo.png" style="width: 70px;"></div>
-  			<div class="col-md-4"><h2><?=_("Guides de Démarrage");?></h2></div>
-  			<div class="col-md-3"><h2>
-			<!--
-  			<a href="index.php?locale=fr_FR.UTF-8" class="btn btn-sm btn-info"><span class="flag-icon flag-icon-fr"></span> Français</a> &nbsp; <a href="index.php?locale=en_US.UTF-8" class="btn btn-sm btn-info"><span class="flag-icon flag-icon-gb"></span> English</a>
-  			-->
-			</h2></div>
-    	</div>
-    	<div class="row" style="background: #96c927;margin-top:1%;">
-    	<h2><center><span style="color: white;"><?=_("Quel pack possédez-vous ?");?></span></center></h2>
-    	</div>
-    	<div class="row" style="background: #96c927;">
-	    	<br><br>
-	    	<div class="col-md-1"></div>
-	    	<div class="col-md-5">
-    			<div class="thumbnail" style="border-radius:20px;height:292px;">
-    				<img alt="mini+" src="img/pack-smart-zwave.jpg" style="width: 200px;">
-    				<div class="caption"><center><b>Pack Jeedom Smart Z-Wave</b><br><a href="base.php?locale=<?php echo $locale; ?>&type=base" class="btn btn-primary"><?=_("Accéder au guide");?></a></center></div>
-    			</div>
-    		</div>
-    		<div class="col-md-5">
-    			<div class="thumbnail" style="border-radius:20px;height:292px;">
-						<img alt="power-supply" src="img/pack-smart-enocean.jpg"  style="width: 200px;">
-    				<div class="caption"><center><b>Pack Jeedom Smart Enocean</b><br><a href="base.php?locale=<?php echo $locale; ?>&type=enocean" class="btn btn-primary"><?=_("Accéder au guide");?></a></center></div>
-    			</div>
-    		</div>
-    		<div class="col-md-1"></div>
-    	</div><div class="row" style="background: #96c927;">
-    		<div class="col-md-1"></div>
-    		<div class="col-md-5">
-    			<div class="thumbnail" style="border-radius:20px;height:292px;">
-    				<img alt="power-supply" src="img/atlas2.jpg"  style="width: 200px;">
-    				<div class="caption"><center><b>Pack Jeedom Atlas</b><br><a href="base_atlas.php?locale=<?php echo $locale; ?>" class="btn btn-primary"><?=_("Accéder au guide");?></a></center></div>
-    			</div>
-    		</div>
-    		<div class="col-md-5">
-    			<div class="thumbnail" style="border-radius:20px;height:292px;">
-    				<img alt="power-supply" src="img/luna.png"  style="width: 200px;">
-    				<div class="caption"><center><b>Pack Jeedom Luna</b><br><a href="base_luna.php?locale=<?php echo $locale; ?>" class="btn btn-primary"><?=_("Accéder au guide");?></a></center></div>
-    			</div>
-    		</div>
-    		<div class="col-md-1"></div>
-	    </div>
-	</body>
+<html lang="fr" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeedom - Bienvenue</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="site-header">
+        <div class="header-content">
+            <img src="img/Jeedom-Start-logo.svg" alt="Jeedom Start Logo" class="logo">
+            <div class="header-controls">
+                <span class="header-title">Guides de démarrage Jeedom</span>
+                <!-- <button id="theme-switcher" aria-label="Toggle light/dark theme">🌙</button> -->
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="welcome-section">
+            <div class="content-wrapper">
+                <h1>Bienvenue dans l'univers de la domotique avec Jeedom</h1>
+                    <div class="card-grid-index" style="margin-bottom: 2rem;">
+                       <div class="card">
+                        <div class="card-content">
+                            <a href="bien-debuter.html" style="text-decoration: none;"> <h2>Avant de débuter sur Jeedom</h2></a>
+                        </div>
+                    </div>
+                </div>
+                <h2>Choisissez votre Box</h2>
+                <div class="card-grid-index">
+                    <div class="card">
+                        <div class="card-content">
+                            <h2>Jeedom <br>Smart</h2>
+                        </div>
+                        <a href="box-smart-gamme.html">
+                            <img src="img/jeedom-smart/pack-jeedom-smart-z-wave.png" alt="Jeedom Smart">
+                        </a>
+                    </div>
+                    <div class="card">
+                        <div class="card-content">
+                            <h2>Jeedom <br>Atlas</h2>
+                        </div>
+                        <a href="box-atlas.html">
+                            <img src="img/jeedom-atlas/pack-jeedom-atlas.png" alt="Jeedom Atlas">
+                        </a>
+                    </div>
+                    <div class="card">
+                        <div class="card-content">
+                            <h2>Jeedom <br>Luna</h2>
+                        </div>
+                        <a href="box-luna.html">
+                            <img src="img/jeedom-luna/pack-jeedom-luna.png" alt="Jeedom Luna">
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        
+    </main>
+
+    <button id="back-to-top" title="Retour en haut">⬆️</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
