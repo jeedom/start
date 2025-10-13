@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeedom Smart - Les différents modèles</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="site-header">
+        <div class="header-content">
+            <a href="index.php"><img src="img/Jeedom-Start-logo.svg" alt="Jeedom Start Logo" class="logo"></a>
+            <div class="header-controls">
+                <span class="header-title">Guides de démarrage Jeedom</span>
+                <!-- <button id="theme-switcher" aria-label="Toggle light/dark theme">🌙</button> -->
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+        <nav class="sticky-menu">
+            <div class="content-wrapper menu-content">
+                <a href="index.php" class="back-arrow">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M15 18L9 12L15 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </a>
+                <div class="menu-items">
+                    <a href="#smart-zwave" class="menu-item">Smart Z-Wave</a>
+                    <a href="#smart-enocean" class="menu-item">Smart EnOcean</a>
+                    <a href="#smart-basique" class="menu-item">Smart (sans antenne)</a>
+                    <a href="#tableau-comparatif" class="menu-item">Tableau comparatif</a>
+                </div>
+            </div>
+        </nav>
+
+        <section class="section">
+            <div class="content-wrapper">
+                <h1 class="with-border">Les box Jeedom Smart</h1>
+                <div class="card item-card compact-card">
+                    <p class="mt-2">La gamme Smart est composée de mini-ordinateurs compacts et économiques, parfaits pour débuter en domotique. Ils partagent tous la même base matérielle mais se distinguent par leur compatibilité avec différents protocoles domotiques.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="smart-zwave">
+            <div class="content-wrapper">
+                <h1 class="with-border">Smart Z-Wave</h1>
+                <div class="card item-card compact-card">
+                    <p class="mt-2">Le modèle équipé d'une antenne Z-Wave pour contrôler vos appareils compatibles Z-Wave/Z-Wave+.</p>
+                    <p>Idéal pour les installations domotiques basées sur ce protocole très répandu.</p>
+                    <div class="card-image-container">
+                        <img src="img/jeedom-smart/pack-jeedom-smart-z-wave.png" alt="Jeedom Smart Z-Wave">
+                    </div>
+                    <p class="mt-2"><a href="box-smart.html" class="btn btn-primary">Guide de démarrage Smart Z-Wave</a></p>
+                </div>
+            </div>
+        </section>
+        
+        <section class="section" id="smart-enocean">
+            <div class="content-wrapper">
+                <h1 class="with-border">Smart EnOcean</h1>
+                <div class="card item-card compact-card">
+                    <p class="mt-2">Le modèle équipé d'une antenne EnOcean pour contrôler vos appareils compatibles avec ce protocole sans pile et écologique.</p>
+                    <p>Parfait pour les installations privilégiant les appareils auto-alimentés sans batterie.</p>
+                    <div class="card-image-container">
+                        <img src="img/jeedom-smart/pack-jeedom-smart-z-wave.png" alt="Jeedom Smart EnOcean">
+                    </div>
+                    <p class="mt-2"><a href="box-smart.html" class="btn btn-primary">Guide de démarrage Smart EnOcean</a></p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="smart-basique">
+            <div class="content-wrapper">
+                <h1 class="with-border">Smart (sans antenne)</h1>
+                <div class="card item-card compact-card">
+                    <p class="mt-2">Le modèle de base, sans antenne préinstallée, mais compatible avec les dongles USB pour ajouter le protocole de votre choix.</p>
+                    <p>Flexible, il peut être adapté selon vos besoins avec différents modules additionnels.</p>
+                    <div class="card-image-container">
+                        <img src="img/jeedom-smart/pack-jeedom-smart-z-wave-sans-antenne.png" alt="Jeedom Smart sans antenne">
+                    </div>
+                    <p class="mt-2"><a href="box-smart-sans-antenne.html" class="btn btn-primary">Guide de démarrage Smart sans antenne</a></p>
+                </div>
+            </div>
+        </section>
+        
+        <section class="section" id="tableau-comparatif">
+            <div class="content-wrapper">
+                <h1 class="with-border">Tableau comparatif</h1>
+                <div class="card item-card">
+                    <table class="comparison-table">
+                        <thead>
+                            <tr>
+                                <th>Caractéristique</th>
+                                <th>Smart Z-Wave</th>
+                                <th>Smart EnOcean</th>
+                                <th>Smart (sans antenne)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Processeur</td>
+                                <td>Quad-core ARM</td>
+                                <td>Quad-core ARM</td>
+                                <td>Quad-core ARM</td>
+                            </tr>
+                            <tr>
+                                <td>RAM</td>
+                                <td>2 GB</td>
+                                <td>2 GB</td>
+                                <td>2 GB</td>
+                            </tr>
+                            <tr>
+                                <td>Stockage</td>
+                                <td>8 GB eMMC</td>
+                                <td>8 GB eMMC</td>
+                                <td>8 GB eMMC</td>
+                            </tr>
+                            <tr>
+                                <td>Antenne intégrée</td>
+                                <td>Z-Wave</td>
+                                <td>EnOcean</td>
+                                <td>Aucune</td>
+                            </tr>
+                            <tr>
+                                <td>Ports USB</td>
+                                <td>4</td>
+                                <td>4</td>
+                                <td>4</td>
+                            </tr>
+                            <tr>
+                                <td>Ethernet</td>
+                                <td>Oui</td>
+                                <td>Oui</td>
+                                <td>Oui</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <button id="back-to-top" title="Retour en haut">⬆️</button>
+
+    <script src="script.js"></script>
+</body>
+</html>

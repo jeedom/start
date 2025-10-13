@@ -110,10 +110,15 @@ body {
     transform: scale(1.1);
 }
 
-/* --- TYPOGRAPHY AND SECTIONS --- */
+
 section {
     padding: 3rem 0;
-    scroll-margin-top: 100px; /* Augmentation de la marge pour les ancres en mode desktop */
+    scroll-margin-top: 100px; 
+}
+
+
+#smart-zwave, #smart-enocean, #smart-basique {
+    padding: 2rem 0;
 }
 
 .intro-text {
@@ -150,7 +155,7 @@ h2 {
 
 .card-grid-index{
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
 }
 
@@ -224,7 +229,7 @@ h2 {
     margin-top: auto;
 }
 
-/* --- STICKY NAVIGATION MENU --- */
+
 .sticky-menu {
     position: sticky;
     top: 0;
@@ -279,7 +284,6 @@ h2 {
     border-color: var(--menu-button-active-bg);
 }
 
-/* --- BOX CONTENTS SECTION --- */
 .box-contents-section, .section {
     padding-top: 3rem;
     position: relative; 
@@ -290,7 +294,7 @@ h2 {
     position: relative;
 }
 
-/* Style pour les titres h1 avec liseret vert dans bien-debuter.html */
+
 .section h1.with-border {
     padding-left: 15px;
     border-left: 4px solid var(--accent-color);
@@ -342,7 +346,7 @@ height:46px;
     object-fit: contain;
 }
 
-/* Conteneurs d'images avec hauteur fixe */
+
 .card-image-container {
     /* height: 200px; */
     display: flex;
@@ -373,7 +377,69 @@ height:46px;
     object-fit: contain;
 }
 
-/* Styles pour la page Bien débuter */
+
+#smart-zwave .card.item-card,
+#smart-enocean .card.item-card,
+#smart-basique .card.item-card {
+    max-width: 100%;
+    padding: 1rem;
+}
+
+.compact-card {
+    padding: 1rem !important;
+}
+
+.compact-card p {
+    margin-bottom: 0.3rem;
+    font-size: 0.85rem;
+}
+
+.compact-card .mt-2 {
+    margin-top: 0.5rem;
+}
+
+.compact-card .btn {
+    padding: 0.4rem 0.8rem;
+    font-size: 0.85rem;
+}
+
+#smart-zwave .card-image-container,
+#smart-enocean .card-image-container,
+#smart-basique .card-image-container {
+    height: 160px;
+    margin-top: 1rem;
+}
+
+
+.comparison-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1.5rem;
+    font-size: 0.9rem;
+}
+
+.comparison-table th, 
+.comparison-table td {
+    padding: 0.8rem;
+    text-align: left;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.comparison-table th {
+    background-color: var(--accent-color);
+    color: var(--menu-button-active-text);
+    font-weight: 600;
+}
+
+.comparison-table tr:nth-child(even) {
+    background-color: rgba(0, 0, 0, 0.02);
+}
+
+.comparison-table tr:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+
 #comprendre .card,
 #sauvegardes .card,
 #plugins .card,
@@ -422,7 +488,7 @@ height:46px;
     margin-top: 1rem;
 }
 
-/* Styles pour la notice box */
+
 .notice-box {
     background-color: var(--card-background);
     border: 2px solid var(--accent-color);
@@ -453,7 +519,7 @@ height:46px;
     margin-left: 0.5rem;
 }
 
-/* --- BACK TO TOP BUTTON --- */
+
 #back-to-top {
     position: fixed;
     bottom: 20px;
@@ -483,7 +549,6 @@ height:46px;
 }
 
 
-/* --- RESPONSIVE DESIGN --- */
 @media (max-width: 1024px) {
     .card-grid {
         grid-template-columns: repeat(2, 1fr);
