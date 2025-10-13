@@ -24,3 +24,4 @@ RUN rm -f /var/www/html/index.php
 
 EXPOSE 80
 CMD ["/usr/sbin/apache2ctl", "-DFOREGROUND"]
+
